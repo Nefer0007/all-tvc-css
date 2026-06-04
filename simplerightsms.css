@@ -1,0 +1,14 @@
+.tvcsms--message.tvcsms--sent {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    justify-content: flex-end;
+}
+.tvcsms--text {
+    background: var(--linerbg);
+    align-self: flex-end;
+    max-width: 70%;
+    padding: 10px;
+    border-radius: 15px;
+    font-size: 14px;
+}

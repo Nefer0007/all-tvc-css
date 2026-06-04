@@ -1,0 +1,112 @@
+ .hivas-mobilka {
+            position: relative;
+    width: 299px;
+    height: 523px;
+    overflow: hidden;
+    border-radius: 13px;
+    border: 6px solid #323a43;
+    }
+.slide-to-unlock {
+    font-family: var(--font1);
+    margin-top: 245px;
+    background: #e9e9e97a;
+    display: flex
+;
+    border-radius: 90pc;
+    padding: 10px;
+    gap: 35px;
+    width: 237px;
+    margin-top: 194px;
+    line-height: 35px;
+}.slide-to-unlock .fa-solid.fa-phone.fa-shake {
+    background: green;
+    font-size: 15px;
+    border-radius: 90px;
+    padding: 10px;
+    margin-left: -5px;
+}
+
+    .hivas-mobilka-messe {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        transition: transform 0.5s ease-in-out;
+    }
+
+    .hivas-mobilka-messages {
+        position: absolute;    margin-left: -16px;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.7);
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding: 15px;
+        opacity: 0;
+        transition: opacity 0.5s ease-in-out;
+    }
+
+  .hivas-mobilka-header {
+  width: 252px;
+    padding: 10px;
+    height: 93px;
+    
+    margin-left: 12px;
+    margin-top: -14px;
+}
+
+    .hivas-mobilka-header img {
+          width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    }
+
+    .hivas-mobilka-header span {
+        color: #000000c7;
+        font-size: 18px;
+        cursor: pointer;
+    }
+
+   
+
+    .hivas-mobilka-message {
+background: var(--bgg2);
+    border-radius: 10px;
+    text-align: justify;
+    margin: 7px 1px 2px -13px;
+    width: 258px;
+    height: auto;
+    padding: 13px;
+    font-family: Arial, sans-serif;
+    }
+
+    .hivas-mobilka:hover .hivas-mobilka-messe {
+        transform: scale(1.2);
+    }
+
+    .hivas-mobilka:hover .hivas-mobilka-messages {
+        opacity: 1;
+    }
+
+    .ora,
+    .slide-to-unlock {
+        transition: transform 0.5s ease-in-out;
+    }
+
+    .hivas-mobilka:hover .ora {
+        animation: slideRight 0.5s forwards;
+    }
+
+    .hivas-mobilka:hover .slide-to-unlock {
+        animation: slideRight 0.5s forwards;
+    }
+
+    @keyframes slideRight {
+        0% {
+            transform: translateX(0);
+        }
+        100% {
+            transform: translateX(100%);
+            opacity: 0;
+        }
+    }

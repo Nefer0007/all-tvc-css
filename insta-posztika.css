@@ -1,0 +1,118 @@
+.insta-bg {
+          font-family: Arial, sans-serif;
+    background: #ffffff85;
+    width: 391px;
+    border-radius: 10px;
+    border: 3px solid #323a43;
+    margin-top: 22px;
+    margin-bottom: 22px;
+    }
+
+    /* Header */
+    .instagram-header {
+             padding: 10px 15px;
+    background: #d7d7d7;
+    }
+
+.iconstwo {
+    display: flex;
+    justify-content: space-between;
+    padding: 21px;
+    font-size: 20px;
+    height: 9px;
+    margin-top: -25px;
+}
+    .instagram-header .icons {
+      display: flex;
+      gap: 10px;justify-content: space-between;
+    }
+    .instagram-header .icons i {
+      font-size: 1.2rem;
+    }
+.insta-notif {
+    border-radius: 90px;
+    height: 10px;
+    width: 10px;
+    font-size: 10px;
+    line-height: 25px;
+    color: white;
+    position: absolute;
+    background: red;
+    margin: 1px 2px 3px 17px;
+}
+   
+
+    /* Post */
+    .instagram-post {
+     margin-top: -2px;
+    }
+    .instagram-post .instagram-post-header {
+      display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    }
+    .instagram-post .instagram-post-header img {
+         width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 90px;
+    }
+    .instagram-post .instagram-post-header .username {
+          margin-left: 10px;
+    font-weight: bold;
+    color: black;
+    }
+ 
+    .instagram-post .instagram-post-actions {
+         display: flex
+;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-size: 20px;
+    color: #00000063;
+    }
+    .instagram-post .instagram-post-actions .left-actions i {
+      margin-right: 15px;
+      font-size: 1.5rem;
+    }
+
+.left-actions .fas.fa-heart {
+    transition: all .5s ease-in-out;
+}
+
+.left-actions .fas.fa-heart:hover {
+    transition: all .5s ease-in-out;
+color:red;
+}
+.instagram-post strong {
+    text-shadow: none;
+    color: #000000bd;
+}
+    .instagram-post .instagram-post-actions .right-actions i {
+      font-size: 1.5rem;
+    }
+    .instagram-post .instagram-post-likes {
+      padding: 0 10px;
+      font-weight: bold;    text-align: left;
+    }
+    .instagram-post .instagram-post-caption {
+    padding: 0 10px;
+    color: #545454;
+    text-align: left;
+    margin-bottom: 26px;
+    }
+
+    /* Footer */
+    .instagram-footer {
+          display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+    background: var(--linerbg);
+    width: 100%;
+    }
+    .instagram-footer i {
+      font-size: 1.5rem;
+    }

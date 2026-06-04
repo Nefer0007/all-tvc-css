@@ -1,0 +1,30 @@
+.postdesc-comment-bg {
+    border-radius: 5px;
+    width: 460px;
+    background: var(--linerbg);
+    height: 149px;
+    margin-bottom: 25px;
+    padding: 12px;
+}
+.postdesc-comment {
+    background: var(--bgg2);
+    width: 420px;
+    height: 145px;
+    border-radius: 5px;
+    display: flex;
+}.postimg-comment {
+    margin: 25px 8px 20px 8px;
+}.postimg-comment img {
+    height: 95px;
+    width: 95px;
+    border-radius: 100px;
+}.postdesc-comment p {
+    width: 271px;
+    margin-left: 11px;
+    padding: 10px;
+    height: 100px;
+    overflow: auto;
+}.postdesc-comment span, .postdesc hastag {
+    color: var(--fontcolor1);
+    font-family: var(--font1);
+}

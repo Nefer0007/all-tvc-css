@@ -1,0 +1,62 @@
+.helyszin-tartalom img { 
+    width: 184px;
+    height: 128px;
+    border: 5px solid #292929;
+    border-radius: 2px;
+}
+
+.helyszinek-fejliresze {
+    background: var(--bgg2);
+    height: 42px;
+    width: 473px;
+    border-radius: 6px 6px 1px 1px;
+    margin-bottom: -7px;
+    margin-top: 22px;
+}
+
+.helyszinek-hattere {
+    width: 424px;
+    padding: 24px;
+    background: var(--linerbg);
+    margin-top: 7px;
+    margin-bottom: 11px;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+}
+
+.helyszin-tartalom {
+    text-align: justify;
+    width: 443px;
+    height: 290px;
+    margin-top: -20px;
+    overflow: auto;
+    padding: 10px;
+    margin-left: -20px;
+    background: var(--forumlinebg);
+    border-radius: 6px;
+    margin-bottom: -18px;
+}
+
+.helyszin-kepek {
+    display: block;
+}
+
+.helyszin-leirasa {
+    display: none;
+    padding: 34px;
+    line-height: 22px;
+    overflow: auto;
+    height: 365px;
+}
+
+@keyframes beuszas {
+    from {
+        opacity: 0;
+        transform: translateX(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}

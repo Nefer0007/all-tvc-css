@@ -1,0 +1,35 @@
+.instastroybg {
+    background: var(--linerbg);
+    width: 294px;
+    height: 464px;
+    padding-top: 2px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    border-radius: 6px;
+}.instagram-storybg {
+    width: 269px;
+    height: 443px;
+    margin-top: 10px;
+}.insta-line {
+    height: 2px;
+    background: #868585;
+    margin: 7px 2px;
+    border-radius: 2px;
+    width: 82px;
+    margin-left: 4px;
+}.insta-storyimg img {
+    border-radius: 100px;
+    margin-left: 11px;
+    height: 40PX;
+    width: 40px;
+    background: var(--linerbg);
+    padding: 2px;
+}.instastory-name {
+    font-size: 14px;
+    color: var(--fontcolor1);
+    font-family: var(--font1);
+    margin-top: 10px;
+}.instastory-date {
+    margin-top: 10px;
+    margin-left: 5px;
+}

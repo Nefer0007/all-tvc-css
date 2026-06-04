@@ -1,0 +1,63 @@
+.instagram-kovetoim-bg{width: 483px;
+    background: var(--linerbg);
+    border-radius: 6px;
+   
+    margin-top: 16px;
+    padding-bottom: 9px;}
+
+
+.instagram-kovetok {
+    background: var(--bgg2);
+    height: 42px;
+    border-radius: 6px 6px 1px 1px;
+}.instagram-kovetok div {
+    font-size: 13px;
+    color: var(--fontcolor1);
+    font-family: var(--font1);
+    padding-left: 4px;
+}.instagram-kovetok div {
+    font-size: 13px;
+    color: var(--fontcolor1);
+    font-family: var(--font1);
+    padding-left: 4px;
+}.kovetok-kereses {
+    display: flex
+;
+    gap: 10px;
+    padding: 6px;
+    margin-top: 16px;
+    border-radius: 10px;
+}.koveto-text {
+    font-family: var(--font1);
+    font-size: 12px;
+}.koveto-img img {
+    height: 50px;
+    width: 50px;
+    border-radius: 90px;
+    border: 2px solid #323a43;
+}.koveto-username {
+    font-weight: bold;
+    font-style: italic;
+    font-family: georgia;
+    text-align: left;
+    width: 171px;
+    margin-left: -94px;
+}.koveto-button {
+    padding: 2px;
+    background: var(--bgg1);
+    border-radius: 9px;
+    width: 100px;
+    font-style: italic;
+    font-family: georgia;
+    height: 20px;
+    letter-spacing: 1px;
+    margin-top: 13px;
+    line-height: 21px;
+}.koveto-username {
+    font-weight: bold;
+    font-style: italic;
+    font-family: georgia;
+    text-align: left;
+    width: 171px;
+    margin-left: -94px;
+}

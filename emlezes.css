@@ -1,0 +1,140 @@
+ .emalezesablak {
+    width: min(100%, 559px);
+    background: #2a2a2a;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgb(0 0 0 / 7%);
+    overflow: hidden;
+  }
+  .emalezesfejlec {
+    display: flex;
+    gap: 11px;
+    justify-content: flex-end;
+    padding: 6px;
+    background: #00000069;
+  }
+  .emalezesfejlec span { opacity: .9; }
+  .emalezeseszkozsav {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    padding: 7px;
+    font-size: 11px;
+    line-height: 1;
+    border-top: 1px solid #ffffff0a;
+    border-bottom: 1px solid #ffffff0a;
+  }
+  .emalezesmarka {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: 600;
+  }
+  .emalezesno { margin-left: auto; }
+  .emalezeseszkozsav a {
+    color: #b7b7b7;
+    font-size: 14px;
+    text-decoration: none;
+  }
+  .emalezestargy {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    min-height: 28px;
+    line-height: 27px;
+    padding: 7px 10px;
+    border-bottom: 1px solid #ffffff0a;
+  }
+  .emalezestargycimke { font-weight: 700; }
+  .emalezestargyszoveg {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .emalezestartalom {
+    padding: 10px;
+    border-radius: 0 0 5px 5px;
+    width: 100%;
+  }
+  .emalezeskartya {
+    width: min(100%, 542px);
+    margin-inline: auto;
+  }
+  .emalezeskuldo {
+    display: flex;
+    gap: 10px;
+    padding: 10px 6px;
+  }
+  .emalezesavatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 90px;
+    object-fit: cover;
+    flex: 0 0 auto;
+  }
+  .emalezeskuldomain { flex: 1; }
+  .emalezeskuldosor {
+    display: flex;width: 453px;
+    align-items: center;
+    gap: 10px;
+  }
+  .emalezesnev {
+    font-size: 13px;
+    font-weight: 700;
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  .emalezesemail {
+    font-size: 11px;
+    color: #b3b3b3;
+    margin-left: 6px;
+  }
+  .emalezesikonok {
+    display: flex;
+    gap: 10px;
+    color: #999;
+    margin-left: 10px;
+  }
+  .emalezescimzett {
+    font-size: 11px;
+    opacity: .6;
+    margin-top: -4px;
+    text-align: left;
+  }
+  .emalezestorzs {
+    margin-top: 18px;
+    padding: 8px;
+    text-align: justify;
+    font-size: 12px;
+    line-height: 1.55;
+  }
+  .emalezesmuveletek {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 6px;
+    border-top: 1px solid #ffffff0a;
+    margin-top: 12px;
+  }
+  .emalezesikon {
+    background: #0000001a;
+    border-radius: 999px;
+    padding: 6px 14px;
+    font-size: 12px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    user-select: none;
+    transition: transform .08s ease, filter .08s ease;
+  }
+  .emalezesikon:hover { filter: brightness(.97); }
+  .emalezesikon:active { transform: translateY(1px); }
+  .emalezesikoncsak {
+    margin-left: auto;
+    padding: 6px 10px;
+  }
+  .emalezes span { font-style: normal; }
+  .emalezes .fa-regular, .emalezes .fa-solid { vertical-align: middle; }
+  @media (max-width: 640px) {
+    .emalezestargyszoveg { white-space: normal; }
+    .emalezeskuldo { align-items: flex-start; }
+  }

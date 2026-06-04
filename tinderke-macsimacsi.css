@@ -1,0 +1,45 @@
+.tinderke-talal-match h2 {
+    font-family: var(--font1);
+    font-weight: 400;
+}
+.tinderke-talal-header {
+    background: var(--bgg2);
+    color: var(--fontcolor1);
+    font-family: var(--font1);
+    font-size: 22px;
+    width: 409px;
+    margin-left: -19px;
+    height: 38px;
+    line-height: 41px;
+    margin-bottom: 11px;
+    border-radius: 6px 6px 1px 1px;
+    margin-top: -19px;
+}
+.tinderke-talal-bg {
+    width: 371px;
+    border-radius: 5px;
+    background: var(--linerbg);
+    margin-bottom: 25px;
+    padding: 19px;
+    margin-top: 10px;
+}
+.tinderke-talal-match {
+    text-align: center;
+    padding: 20px;
+}.uzi-button-tinderke {
+    margin-top: 12px;
+    border-radius: 90px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-left: 29px;
+    padding: 4px;
+    width: 259px;
+}
+.tinderke-talal-img {
+    width: 120px;
+    height: 120px;
+    margin-right: 3px;
+    border-radius: 90px;
+    object-fit: cover;
+}

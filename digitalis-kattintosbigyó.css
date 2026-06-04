@@ -1,0 +1,82 @@
+.win-panel{  position: fixed;
+    bottom: 0;
+    left: 0px;
+    width: 170px;
+    height: 109px;
+    background: #181818;
+    padding: 17px;
+    color: #fff;
+    border-radius: 10px 10px 0 0;
+    transform: translateY(300px);
+    opacity: 0;
+    pointer-events: none;
+    bottom: 30px;}
+.win-panel.active{animation:slideUp .35s ease forwards;pointer-events:auto}
+.win-panel.closing{animation:slideDown .35s ease forwards}
+@keyframes slideUp{from{transform:translateY(200%);opacity:0}to{transform:translateY(0);opacity:1}}
+@keyframes slideDown{from{transform:translateY(0);opacity:1}to{transform:translateY(100%);opacity:0}}
+.win-icon{cursor:pointer;font-size:21px}
+
+
+
+
+.digital-teloszamitogep-katt{
+   
+  margin:auto;
+  position:relative;
+}
+
+.digital-teloszamitogep-katt__nav{
+  background:var(--bgg2);width: 360px;
+  height:20px;
+  padding:6px 12px;
+  margin:20px auto;
+  color:var(--fontcolor1);
+  border-radius:20px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  gap:16px;
+  position:relative;
+  z-index:1;
+}
+
+.digital-teloszamitogep-katt__tab{
+  cursor:pointer;
+  font-size:15px;
+  width:28px;
+  height:28px;
+  line-height:28px;
+  text-align:center;
+  opacity:.35;
+  transition:opacity .25s ease;
+  position:relative;
+  z-index:2;
+}
+
+.digital-teloszamitogep-katt__tab.is-active{
+  opacity:1;
+}
+
+.digital-teloszamitogep-katt__indicator{
+  position:absolute;
+  top:50%;
+  left:0;
+  transform:translate(0,-50%);
+  border-radius:100px;
+  background:var(--linerbg);
+  transition:transform 240ms cubic-bezier(0,0,0.2,1),
+             width 240ms cubic-bezier(0,0,0.2,1),
+             height 240ms cubic-bezier(0,0,0.2,1);
+  z-index:1;
+}
+
+.digital-teloszamitogep-katt__panel{
+  display:none;
+  padding:10px;
+}
+
+.digital-teloszamitogep-katt__panel.is-active{
+  display:block;
+}
+

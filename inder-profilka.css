@@ -1,0 +1,148 @@
+.tinderheader {
+    background: var(--bgg2);
+    color: var(--fontcolor1);
+    font-family: var(--font1);
+    font-size: 22px;
+    width: 409px;
+    margin-left: -19px;
+    height: 38px;
+    line-height: 41px;
+    margin-bottom: 11px;
+    border-radius: 6px 6px 1px 1px;
+    margin-top: -19px;
+}
+.tindderbg {
+    width: 371px;
+    border-radius: 5px;
+    background: var(--linerbg);
+    margin-bottom: 25px;
+    padding: 19px;
+    margin-top: 10px;
+}.tinder-aboute {
+    background: var(--bgg2);
+    margin-top: 8px;
+    width: 320px;
+    padding: 14px;
+    border-radius: 5px;
+}.tinder-name {
+    color: var(--fontcolor1);
+    font-family: var(--font1);
+    text-align: left;
+    font-size: 20px;
+    margin-bottom: 19px;
+}.tinder-little-left div {
+    color: var(--fontcolor1);
+    font-family: var(--font1);
+    font-size: 15px;
+    margin-bottom: 9px;
+}.tinder-little-right div {
+    color: var(--fontcolor1);
+    font-family: var(--font1);
+    font-size: 14px;
+    margin-bottom: 9px;
+    text-align: left;
+    margin-left: 24px;
+}.tinder-search {
+   background: var(--bodybg);
+    text-align: justify;
+    padding: 2px;
+    overflow: auto;
+    height: 127px;
+    border-radius: 7px;
+    margin-top: 7px;
+}.tinder-descbg {
+        padding: 10px;
+    text-align: justify;
+    margin-top: -22px;
+    width: 329px;
+    margin-left: -16px;
+}.tinder-search span {
+    font-size: 25px;
+    margin-right: 13px;
+    margin-left: 4px;
+    color: var(--fontcolor1);
+}.tinderfooter {
+    margin-top: 20px;
+    margin-bottom: -19px;
+    background: var(--bgg2);
+    width: 382px;
+    padding: 14px;
+    margin-left: -19px;
+    border-radius: 1px 1px 6px 6px;
+}.tinderfooter div {
+    color: var(--fontcolor1);
+    font-family: var(--font1);
+}.tinderimg {
+    width: 346px;
+    height: 366px;
+    overflow: auto;
+    overflow-y: hidden;
+    margin-top: 2px;
+    margin-bottom: -7px;
+}img.tvc-tinder-img {
+    height: 359px;
+    border-radius: 4px;
+    width: 345px;
+    object-fit: cover;
+    opacity: .8;
+}
+.tinder-descbg p {
+    height: 267px;
+    overflow: auto;
+    padding: 10px;
+    margin-top: 49px;
+}
+
+.tinderfooter span.fa-solid.fa-star {
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.tinderfooter span.fa-solid.fa-star:hover {
+  color: #ffd700;  
+  animation: shake 0.5s ease-in-out 2;  
+}
+
+@keyframes shake {
+  0% { transform: rotate(0deg); }
+  25% { transform: rotate(-10deg); }
+  50% { transform: rotate(10deg); }
+  75% { transform: rotate(-10deg); }
+  100% { transform: rotate(10deg); }
+}
+
+
+
+.tinderfooter span.fa-solid.fa-xmark {
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.tinderfooter span.fa-solid.fa-xmark:hover {
+  color: red;
+  animation: shake 0.5s ease-in-out 2;  
+}
+
+@keyframes shake {
+  0% { transform: rotate(0deg); }
+  25% { transform: rotate(-10deg); }
+  50% { transform: rotate(10deg); }
+  75% { transform: rotate(-10deg); }
+  100% { transform: rotate(10deg); }
+}
+
+
+.tinderfooter span.fa-solid.fa-heart {
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.tinderfooter span.fa-solid.fa-heart:hover {
+  color: #ff5c8d;
+  animation: shake 0.5s ease-in-out 2;  
+}
+
+@keyframes shake {
+  0% { transform: rotate(0deg); }
+  25% { transform: rotate(-10deg); }
+  50% { transform: rotate(10deg); }
+  75% { transform: rotate(-10deg); }
+  100% { transform: rotate(10deg); }
+}

@@ -1,0 +1,62 @@
+.iphone-call-wrap {
+   width: 285px;
+    height: 580px;
+    border-radius: 10px 10px 39px 39px;
+    background: #000;
+    position: relative;
+    overflow: hidden;
+    margin: 33px 2px 3px -37px;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+}.iphone-call-avatar img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 7px;
+    border: 2px solid white;
+}.iphone-call-type {
+    font-family: var(--font1);
+    font-size: 13px;
+    margin-top: 16px;
+    text-align: left;
+    padding-left: 15px;
+}.iphone-call-name {
+    color: white;
+    font-family: var(--font1);
+    font-size: 19px;
+    padding-left: 9px;
+}.iphone-call-bubble {
+    padding: 13px;
+    background: var(--bgg2);
+    border-radius: 10px;
+    margin-top: 38px;
+    width: 253px;
+    height: 332px;
+    color: var(--fontcolor1);
+    overflow: auto;
+    text-align: justify;
+}.iphone-call-buttons {
+    position: absolute;
+    bottom: 25px;
+    left: 0;
+    right: 0;
+    display: flex
+;
+    justify-content: center;
+    gap: 25px;
+    z-index: 3;
+}
+.iphone-call-buttons .btn {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex
+;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    color: #fff;
+    background: #333;
+}

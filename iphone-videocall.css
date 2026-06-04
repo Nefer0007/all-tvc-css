@@ -1,0 +1,136 @@
+.iphone-videocall-wrap {
+  width: 285px;
+  height: 580px;
+  border-radius: 10px 10px 39px 39px;
+  background: #000;
+  position: relative;
+  overflow: hidden;
+  margin: 33px 2px 3px -37px;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+}
+.iphone-videocall-status {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  opacity: .9;
+  padding: 4px 8px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 3;
+}
+.iphone-videocall-status-left { font-weight: 600; }
+.iphone-videocall-status-right { display: flex; gap: 8px; }
+.iphone-videocall-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 9px 8px 8px;
+  position: relative;
+  z-index: 3;
+}
+.iphone-videocall-header-left { display: flex; align-items: center; gap: 10px; }
+.iphone-videocall-back {
+  width: 28px;
+  height: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background: rgba(0,0,0,.4);
+}
+.iphone-videocall-userpic {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+  flex: 0 0 auto;
+}
+.iphone-videocall-userpic img { width: 100%; height: 100%; object-fit: cover; }
+.iphone-videocall-name { font-weight: 700; }
+.iphone-videocall-actions { display: flex; gap: 8px; }
+.iphone-videocall-actions .btn {
+  width: 28px;
+  height: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  background: rgba(0,0,0,.4);
+}
+.iphone-videocall-main {
+  width: 282px;
+  height: 485px;
+  object-fit: cover;
+  position: absolute;
+  top: 53px;
+  border-radius: 6px;
+  left: 2px;
+}
+.iphone-videocall-preview {
+  position: absolute;
+  top: 70px;
+  right: 12px;
+  width: 119px;
+  height: 161px;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 2px solid #fff;
+  z-index: 3;
+}
+.iphone-videocall-preview img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.iphone-videocall-buttons {
+  position: absolute;
+  bottom: 25px;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  z-index: 3;
+}
+.iphone-videocall-buttons .btn {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  color: #fff;
+}
+.iphone-videocall-buttons .btn.camera { background: #333; }
+.iphone-videocall-buttons .btn.end { background: #e84141; }
+.iphone-videocall-buttons .btn.mic { background: #333; }
+
+.iphone-videocall-spoiler {
+  width: 344px;
+  margin-top: -19px;
+  border: 1px solid #323a43a1;
+  border-radius: 8px;
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  text-align: justify;
+}
+.iphone-videocall-spoiler-toggle {
+  padding: 8px;
+  background: var(--bgg2);
+  cursor: pointer;
+  text-align: center;
+}
+.iphone-videocall-spoiler-content {
+  display: none;
+  padding: 12px;
+  background: var(--bgg2);
+  line-height: 14px;
+  text-align: justify;
+}

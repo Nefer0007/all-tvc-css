@@ -1,0 +1,101 @@
+.telefon-bggg {
+    background: var(--bgg2);
+    width: 277px;
+    padding: 17px;
+    height: 591px;
+    margin-top: 30px;
+    margin-bottom: 22px;
+    border-radius: 70px;
+}.telefon-bg {
+    width: 247px;
+    margin: 33px 17px 5px 2px;
+    border: var(--bgg2);
+}.telefonbg-header {
+    margin-top: -20px;
+}.sms-date {
+    color: var(--fontcolor1);
+    font-family: var(--font1);
+    margin-left: -13px;
+    font-size: 16px;
+}.rightside-sms {
+    color: var(--fontcolor1);
+    font-family: var(--font1);
+    margin-left: 3px;
+}.sms-header {
+        margin-left: -26px;
+    background: var(--bodybg);
+    margin-top: -14px;
+}.smsm-body {
+    color: var(--fontcolor1);
+    margin-left: -38px;
+    width: 266px;
+    padding: 11px;
+    overflow: auto;
+    height: 420px;
+}.smsm-body-bg {
+    padding: 7px;
+    padding-top: 20px;
+    text-align: left;
+}.smsm-body p {
+    background: var(--linerbg);
+    width: auto;
+    display: table;
+    border-radius: 10px 10px 10px 0px;
+    padding: 15px;
+    text-align: justify;
+    margin-top: 10px;
+    text-align: left;
+}.sms-footer {
+            background: var(--bodybg);
+    height: 41px;
+    margin-left: -25px;
+    width: 274px;
+    border-radius: 1px 1px 30px 30px;
+    margin-top: 19px;
+    line-height: 41px;
+}.footericons {
+    color: var(--fontcolor1);
+    font-family: var(--font1);
+    font-size: 15px;
+    margin-left: 21px;
+    margin-right: -9px;
+    opacity: .5;
+}.sms-footer-text {
+    margin-left: 27px;
+    background: var(--bgg2);
+    margin-top: 5px;
+    line-height: 33px;
+    width: 151px;
+    border-radius: 20px;
+    text-align: left;
+    padding-left: 13px;
+    height: 33px;
+}.footericons-send {
+    margin-left: 10px;
+    opacity: .8;
+    font-size: 15px;
+}.sms-header div {
+    margin-top: 15px;
+    font-size: 14px;
+    font-family: var(--font1);
+}.sms-avi img {
+   background: var(--linerbg);
+    padding: 5px;
+    border-radius: 90px;
+    margin-top: -14px;
+    margin-bottom: -13px;
+    width: 45px;
+    height: 45px;
+    object-fit: cover;
+}.sms-name {
+    font-size: 12px;
+    margin-top: -51px;
+    width: 134px;
+    height: 20px;
+    overflow: hidden;
+}.bgg-bg {
+    background: var(--bodybg);
+    height: 27px;
+    margin: -27px -3px -50px 2px;
+    border-radius: 90px;
+}

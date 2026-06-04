@@ -1,0 +1,149 @@
+.rvn-ig-tools .tool {
+    width: 24px;
+    height: 24px;
+    display: flex
+;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+}
+.rvn-ig-tools {
+    margin-left: auto;
+    display: flex
+;
+    gap: 10px;
+}
+.rvn-btn.camera {
+    width: 36px;
+    height: 36px;
+    display: flex
+;    margin-left: -6px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    border: 0;
+    background: var(--linerbg);
+}
+
+.rvn-instagram-chatike-input {
+    flex: 1;
+    display: flex
+;
+    align-items: center;
+    gap: 8px;
+    background: var(--bgg1);
+    border: var(--bgg1);
+    border-radius: 26px;
+    padding: 4px 10px;
+}.rvn-instagram-chatike-composer {
+   margin-left: 12px;
+    margin-right: 12px;
+    margin-bottom: 1px;
+    margin-top: 11px;
+    display: flex
+;
+    align-items: center;
+    gap: 8px;
+}
+.rvn-instagram-chatike-actions .btn {
+    width: 28px;
+    height: 28px;
+    display: flex
+;
+    justify-content: center;
+    align-items: center;
+    border-radius: 9px;
+    background: rgba(255, 255, 255, .08);
+}
+.rvn-instagram-chatike-actions {
+    display: flex
+;
+    gap: 8px;
+    padding: 10px;
+}
+
+.rvn-instagram-chatike-name {
+    font-weight: 700;
+    letter-spacing: .3px;
+    text-align: left;
+}
+.rvn-instagram-chatike-sub {
+    font-size: 12px;
+    color: var(--fontcolor1);
+    margin-top: -4px;
+}.rvn-instagram-chatike-userpic {
+    width: 45px;
+    height: 45px;
+    border-radius: 90px;
+    overflow: hidden;
+    flex: 0 0 auto;
+}.rvn-instagram-chatike-userpic img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.rvn-instagram-chatike-back {
+    width: 28px;
+    height: 28px;
+    display: flex
+;
+margin-left: 12px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, .08);
+}
+.rvn-instagram-chatike-header {
+    display: flex
+;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px 2px 6px;
+    margin-top: 3px;
+    background: var(--bgg2);
+}
+.rvn-instagram-chatike-header-left {
+    display: flex
+;
+    align-items: center;
+    gap: 10px;
+}
+.rv-heeder {
+    display: flex
+;
+    margin-bottom: -3px;
+    padding: 7px;
+    justify-content: space-between;
+    background: var(--bgg2);
+    height: 16px;
+    border-radius: 6px 6px 1px 1px;
+    align-items: center;
+    padding: 11px;
+}
+.rvn-smsbg-code-smsm-body {
+    color: var(--fontcolor1);
+    width: 326px;
+    padding: 11px;
+    overflow: auto;
+    height: 420px;
+} .rvn-instagram-chatike-chat {
+      position: relative;
+    z-index: 1;
+    margin-top: -31px;
+    height: 407px;
+}.rvn-ig-bubble {
+    text-align: right;
+    margin: 12px -7px;
+}.rvn-ig-bubble p {
+   background: var(--bgg1);
+    margin-left: 21px;
+    border-radius: 16px;
+    line-height: 21px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    color: #a5a5a5;
+    display: inline-block;
+    padding: 15px;
+    margin-top: 10px;
+    text-align: justify;
+    margin-bottom: -3px;
+}

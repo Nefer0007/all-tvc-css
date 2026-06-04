@@ -1,0 +1,113 @@
+.messenger-uzike {
+    font-family: Arial, sans-serif;
+    background: #0000004f;
+    width: 364px;
+    height: 580px;
+    border-radius: 13px;
+    border: 6px solid #323a43;
+    margin-top: 22px;
+    margin-bottom: 22px;
+    padding: 21px;
+}img.user-messimg {
+    width: 50px;
+    height: 50px;
+    border-radius: 90px;
+    position: relative;
+    z-index: 1;
+    margin-top: -24px;
+}.messenger-bg2 {
+    backdrop-filter: none !important;
+    position: relative;
+    z-index: 1;
+    margin-top: 3px;
+    height: 443px;
+    margin-left: -8px;
+    width: 376px;
+    border-radius: 10px;
+}img.user-messimg-two {
+    width: 35px;
+    height: 35px;
+    border-radius: 90px;
+    margin-top: -4px;
+    margin-left: 8px;
+}.bg-mes {
+    width: 376px;
+    height: 592px;
+    padding: 15px;
+    margin-top: -512px;
+    border-radius: 7px;
+    margin-left: -21px;
+    font-size: 54px;
+    display: flex
+;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    backdrop-filter: brightness(0.7);
+}.bg-mes span {
+    padding: 12px;
+    width: 33px;
+    font-size: 31px;
+    color: black;
+    border-radius: 13px;
+    background: #a3a3a3;
+    margin-right: 9px;
+    filter: brightness(0.6);
+}.messe-body {
+    color: var(--fontcolor1);
+    width: 350px;
+    padding: 11px;
+    overflow: auto;
+    height: 358px;
+}.messe-body-bg {
+    padding: 7px;
+    padding-top: 20px;
+    text-align: left;
+}.messe-body {
+    color: var(--fontcolor1);
+    width: 367px;
+    padding: 2px;
+    overflow: auto;
+    height: 358px;
+    margin-top: -10px;
+}
+
+.messe-body-bg-elkuldve {
+    text-align: left;
+    padding: 6px;
+    margin-bottom: -27px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.messe-body-bg-elkuldve p {
+    background: #343434;
+    color: white;
+    max-width: 70%;
+    display: inline-block;
+    border-radius: 10px 10px 10px 0px;
+    padding: 15px;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.messe-body-bg-valaszod {
+    text-align: right;
+    padding: 6px;
+    margin-bottom: -27px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.messe-body-bg-valaszod p {
+    background: #0084FF; /* Messenger kék szín */
+    color: white;
+    max-width: 70%;
+    display: inline-block;
+    border-radius: 10px 10px 0px 10px;
+    padding: 15px;
+    margin-top: 10px;
+    text-align: right;
+}

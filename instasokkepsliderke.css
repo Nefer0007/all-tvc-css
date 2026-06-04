@@ -1,0 +1,66 @@
+.insta-sokkepek-bg {
+  position: relative;
+  width: 370px;
+  overflow: hidden;
+  margin: 0 auto;
+  border-radius: 12px;
+}
+
+.insta-sokkepek-bgke {
+  display: flex;
+  transition: transform 0.4s ease;
+}
+
+.insta-sokkepek {
+  width: 370px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+
+.insta-sokkepek img {
+  width: 370px;
+  height: 450px;
+  object-fit: cover;
+  display: block;
+}
+
+.insta-bal,
+.insta-jobb {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.9);
+  color: #222;
+  font-size: 24px;
+  line-height: 34px;
+  text-align: center;
+  cursor: pointer;
+  z-index: 5;
+}
+
+.insta-bal { left: 10px; }
+.insta-jobb { right: 10px; }
+
+.instakepeksok-pontok {
+  position: absolute;
+  left: 50%;
+  bottom: 12px;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 6px;
+}
+
+.pontocska-insta {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.5);
+  cursor: pointer;
+}
+
+.pontocska-insta.active {
+  background: white;
+}

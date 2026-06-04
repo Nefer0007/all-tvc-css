@@ -1,0 +1,35 @@
+.messenger-bg {
+    font-family: Arial, sans-serif;
+    background: #0000004f;
+    width: 381px;
+    border-radius: 10px;
+    border: 3px solid #323a43;
+    margin-top: 22px;
+    margin-bottom: 22px;
+    padding: 21px;
+}.mess-header {
+    display: flex
+;
+    justify-content: space-between;
+    margin-top: -1px;
+    margin-bottom: 11px;
+}.olvasatlan {
+    margin-top: 22px;
+    margin-bottom: 11px;
+}img.messenger-body-user {
+    width: 46px;
+    height: 46px;
+    border-radius: 90px;
+}.mes-kereses {
+    display: flex
+;
+    gap: 10px;
+    padding: 6px;
+    margin-top: 16px;
+    border-radius: 10px;
+}.mes-text {
+    font-family: var(--font1);
+    font-size: 12px;
+}.olvasott h5 {
+    opacity: .5;
+}

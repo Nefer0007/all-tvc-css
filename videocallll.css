@@ -1,0 +1,144 @@
+.videocall-wrap {
+  width: 343px;
+  height: 497px;
+  border-radius: 13px;
+  border: 3px solid #323a43;
+  background: #000;
+  position: relative;
+  overflow: hidden;
+  margin: 22px auto;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+}
+
+.videocall-status {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  opacity: .9;
+  padding: 4px 8px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 3;
+}
+.videocall-status-left { font-weight: 600; }
+.videocall-status-right { display: flex; gap: 8px; }
+
+.videocall-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 35px 8px 8px;
+  position: relative;
+  z-index: 3;
+}
+.videocall-header-left { display: flex; align-items: center; gap: 10px; }
+.videocall-back {
+  width: 28px;
+  height: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background: rgba(0,0,0,.4);
+}
+.videocall-userpic {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+  flex: 0 0 auto;
+}
+.videocall-userpic img { width: 100%; height: 100%; object-fit: cover; }
+.videocall-name { font-weight: 700; }
+
+.videocall-actions { display: flex; gap: 8px; }
+.videocall-actions .btn {
+  width: 28px;
+  height: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  background: rgba(0,0,0,.4);
+}
+
+.videocall-main {
+  width: 324px;
+  height: 411px;
+  object-fit: cover;
+  position: absolute;
+  top: 79px;
+  border-radius: 6px;
+  left: 10px;
+}
+
+.videocall-preview {
+  position: absolute;
+  top: 100px;
+  right: 12px;
+  width: 100px;
+  height: 130px;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 2px solid #fff;
+  z-index: 3;
+}
+.videocall-preview img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.videocall-buttons {
+  position: absolute;
+  bottom: 25px;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  z-index: 3;
+}
+.videocall-buttons .btn {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  color: #fff;
+}
+.videocall-buttons .btn.camera { background: #333; }
+.videocall-buttons .btn.end { background: #e84141; }
+.videocall-buttons .btn.mic { background: #333; }
+
+ 
+.videocall-spoiler {
+    width: 344px;
+    margin-top: -19px;
+    border: 1px solid #323a43a1;
+    border-radius: 8px;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    text-align: justify;
+}
+.videocall-spoiler-toggle {
+padding: 8px;
+    background: var(--bgg2);
+    cursor: pointer;
+    text-align: center;
+}
+.videocall-spoiler-content {
+  display: none;
+  padding: 12px;
+    background: var(--bgg2);
+    line-height: 14px;
+    text-align: justify;
+}

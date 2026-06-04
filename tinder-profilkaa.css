@@ -1,0 +1,77 @@
+.tinderheader {
+    background: var(--bgg2);
+    color: var(--fontcolor1);
+    font-family: var(--font1);
+    font-size: 22px;
+    width: 409px;
+    margin-left: -19px;
+    height: 38px;
+    line-height: 41px;
+    margin-bottom: 11px;
+    border-radius: 6px 6px 1px 1px;
+    margin-top: -19px;
+}
+.tindderbg {
+    width: 371px;
+    border-radius: 5px;
+    background: var(--linerbg);
+    margin-bottom: 25px;
+    padding: 19px;
+    margin-top: 10px;
+}.tinderimg img {
+    height: 341px;
+    border-radius: 4px;
+    width: 345px;
+    object-fit: cover;
+    opacity: .8;
+}.tinder-aboute {
+    background: var(--bgg2);
+    margin-top: 8px;
+    width: 320px;
+    padding: 14px;
+    border-radius: 5px;
+}.tinder-name {
+    color: var(--fontcolor1);
+    font-family: var(--font1);
+    text-align: left;
+    font-size: 20px;
+    margin-bottom: 19px;
+}.tinder-little-left div {
+    color: var(--fontcolor1);
+    font-family: var(--font1);
+    font-size: 15px;
+    margin-bottom: 9px;
+}.tinder-little-right div {
+    color: var(--fontcolor1);
+    font-family: var(--font1);
+    font-size: 14px;
+    margin-bottom: 9px;
+    text-align: left;
+    margin-left: 24px;
+}.tinder-search {
+    background: var(--bodybg);
+    text-align: justify;
+    padding: 2px;
+    border-radius: 7px;
+    margin-top: 7px;
+}.tinder-descbg {
+    padding: 10px;
+    text-align: justify;
+    margin-top: 15px;
+}.tinder-search span {
+    font-size: 25px;
+    margin-right: 13px;
+    margin-left: 4px;
+    color: var(--fontcolor1);
+}.tinderfooter {
+    margin-top: 20px;
+    margin-bottom: -19px;
+    background: var(--bgg2);
+    width: 382px;
+    padding: 14px;
+    margin-left: -19px;
+    border-radius: 1px 1px 6px 6px;
+}.tinderfooter div {
+    color: var(--fontcolor1);
+    font-family: var(--font1);
+}

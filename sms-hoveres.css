@@ -1,0 +1,98 @@
+   
+
+        .sms-kuldese {
+            position: relative;
+            width: 281px;
+            height: 476px;
+            overflow: hidden;
+            border-radius: 13px;
+            border: 6px solid #323a43;
+        }
+
+        .sms-kuldese-messe {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            transition: transform 0.5s ease-in-out;
+        }
+
+        .sms-kuldese-messages {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.7);
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            padding: 15px;
+            opacity: 0;
+            transition: opacity 0.5s ease-in-out;
+        }
+
+        .sms-kuldese-header {
+                display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 232px;
+    padding: 10px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .sms-kuldese-header img {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+        }
+
+        .sms-kuldese-header span {
+           color: #000000c7;
+            font-size: 18px;
+            cursor: pointer;
+        }
+
+        .sms-kuldese-header .namebaby {
+               color: #000000c7;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+        }
+
+        .sms-kuldese-message {
+          background: #007aff;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 5px 0;
+    width: 234px;
+    color: white;
+    font-family: Arial, sans-serif;
+        }
+
+        .sms-kuldese:hover .sms-kuldese-messe {
+            transform: scale(1.2);
+        }
+
+        .sms-kuldese:hover .sms-kuldese-messages {
+            opacity: 1;
+        }
+.ora,
+    .slide-to-unlock {
+        transition: transform 0.5s ease-in-out;
+    }
+
+    .sms-kuldese:hover .ora {
+        animation: slideRight 0.5s forwards;
+    }
+
+    .sms-kuldese:hover .slide-to-unlock {
+        animation: slideRight 0.5s forwards;
+    }
+
+    @keyframes slideRight {
+        0% {
+            transform: translateX(0);
+        }
+        100% {
+            transform: translateX(100%);
+            opacity: 0;
+        }
+    }

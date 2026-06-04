@@ -1,0 +1,149 @@
+.messenger-chatike-phone {
+  font-family: Arial, sans-serif;
+  background: #0000004f;
+  width: 364px;
+  height: 488px;
+  border-radius: 13px;
+  border: 3px solid #323a43;
+  margin-top: 22px;
+  margin-bottom: 22px;
+  padding: 21px;
+  position: relative;
+  overflow: hidden;
+}
+
+.messenger-chatike-status {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  opacity: .85;
+  margin-bottom: 6px;
+}
+
+.messenger-chatike-status-left {
+  font-weight: 600;
+}
+
+.messenger-chatike-status-right {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.messenger-chatike-status .fa-solid {
+  font-size: 12px;
+}
+
+.messenger-chatike-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2px 2px 6px;
+}
+
+.messenger-chatike-header-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.messenger-chatike-back {
+  width: 28px;
+  height: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, .08);
+}
+
+.messenger-chatike-userpic {
+  width: 45px;
+  height: 45px;
+  border-radius: 90px;
+  overflow: hidden;
+  flex: 0 0 auto;
+}
+
+.messenger-chatike-userpic img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.messenger-chatike-name {
+  font-weight: 700;
+  letter-spacing: .3px;
+}
+
+.messenger-chatike-chat {
+  position: relative;
+  z-index: 1;
+  margin-top: 8px;
+  height: 368px;
+  overflow-y: auto;
+  width: 383px;
+}
+.messenger-chatike-bubble {
+    text-align: right;
+    padding: 6px;
+    margin-bottom: -27px;
+}
+.messenger-chatike-bubble p {
+  background: var(--bgg1);
+    margin-left: 41px;
+    border-radius: 7px;
+    line-height: 21px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    color: #a5a5a5;
+    max-width: 73%;
+    display: inline-block;
+    padding: 15px;
+    margin-top: 10px;
+    text-align: justify;
+}
+
+.messenger-chatike-composer {
+  position: absolute;
+  left: 12px;
+  right: 12px;
+  bottom: 12px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.messenger-chatike-composer .btn {
+  width: 34px;
+  height: 34px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--bgg1);
+  border: 1px solid var(--bgg1);
+  border-radius: 30px;
+}
+
+.messenger-chatike-input {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: var(--bgg1);
+  border: 1px solid var(--bgg1);
+  border-radius: 18px;
+  padding: 8px 10px;
+   
+}
+
+.messenger-chatike-send {
+  width: 34px;
+  height: 34px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background-color: var(--bgg1);
+  border: 1px solid var(--bgg1);
+}

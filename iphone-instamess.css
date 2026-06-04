@@ -1,0 +1,206 @@
+.insta-sms-header {
+    margin-top: -13px;
+    line-height: 19px;
+    font-size: 12px;
+    background: var(--bodybg);
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+.instagram-chatike-phone {
+  width: 343px;
+  height: 537px;
+  border-radius: 13px;
+  border: 3px solid #323a43;
+  background: #0000004f;
+  position: relative;
+  overflow: hidden;
+  padding: 21px;
+  margin: 22px auto;
+}
+.instagram-chatike-status {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  opacity: .85;
+  margin-bottom: 6px;
+}
+.instagram-chatike-status-left { font-weight: 600; }
+.instagram-chatike-status-right { display: flex; gap: 8px; align-items: center; }
+.instagram-chatike-status .fa-solid { font-size: 12px; }
+.instagram-chatike-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2px 2px 6px;
+}
+.instagram-chatike-header-left { display: flex; align-items: center; gap: 10px; }
+.instagram-chatike-back {
+  width: 28px;
+  height: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background: rgba(255,255,255,.08);
+}
+.instagram-chatike-userpic {
+  width: 45px;
+  height: 45px;
+  border-radius: 90px;
+  overflow: hidden;
+  flex: 0 0 auto;
+}
+.instagram-chatike-userpic img { width: 100%; height: 100%; object-fit: cover; }
+.instagram-chatike-name { font-weight: 700; letter-spacing: .3px; }
+.instagram-chatike-sub { font-size: 12px; color: var(--fontcolor1); margin-top: 2px; }
+.instagram-chatike-actions { display: flex; gap: 8px; }
+.instagram-chatike-actions .btn {
+  width: 28px;
+  height: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 9px;
+  background: rgba(255,255,255,.08);
+}
+.instagram-chatike-chat-iphone {
+    position: relative;
+    z-index: 1;
+    margin-top: 8px;
+    height: 418px;
+    overflow: auto;
+    height: 457px;
+    width: 291px;
+     
+    padding-right: 10px;
+}
+.ig-bubble { text-align: right; padding: 6px; margin: 12px 5px; }
+.ig-bubble .avatar { width: 28px; height: 28px; border-radius: 50%; overflow: hidden; flex: 0 0 auto; }
+.ig-bubble .avatar img { width: 100%; height: 100%; object-fit: cover; }
+.ig-bubble p {
+ background: var(--bgg1);
+    margin-left: 48px;
+    border-radius: 16px;
+    line-height: 21px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    color: #a5a5a5;
+    display: inline-block;
+    padding: 15px;
+    margin-top: -4px;
+    text-align: justify;
+}
+.ig-bubble.right { justify-content: flex-end; }
+.ig-bubble.left p { border-bottom-left-radius: 6px; }
+.instagram-chatike-composer {
+  position: absolute;
+  left: 12px;
+  right: 12px;
+  bottom: 12px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.instagram-chatike-composer .btn.camera {
+  width: 36px;
+  height: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  border: 0;
+  background: var(--linerbg);
+}
+.instagram-chatike-input {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--bgg1);
+  border: var(--bgg1);
+  border-radius: 26px;
+  padding: 4px 10px;
+}
+.instagram-chatike-input .placeholder {
+  opacity: .8;
+  margin-left: 2px;
+  flex: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.instagram-chatike-input .ig-tools {
+  margin-left: auto;
+  display: flex;
+  gap: 10px;
+}
+.instagram-chatike-input .ig-tools .tool {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+}
+
+/* ÚJ – az inline style-ok áthelyezve osztályokba */
+.telefonbg-custom {
+  background: url(https://i.imgur.com/QDpVvEe.png);
+  height: 661px;
+  width: 364px;
+  background-size: 414px;
+  background-position: -44px 2px;
+  margin-top: -33px;
+  margin-left: -24px;
+}
+.rightside-sms-space { margin-left: 165px; }
+.header-custom {
+  height: 58px;
+  margin-top: 11px!important;
+}
+.back-small {
+  width: 23px!important;
+  height: 23px!important;
+  font-size: 10px!important;
+}
+.name-left { text-align: left; }
+.sub-left {
+  text-align: left;
+  font-size: 11px;
+  margin-top: -5px;
+}
+.btn-small {
+  width: 23px!important;
+  height: 23px!important;
+  font-size: 10px!important;
+}
+.body-insta-custom {
+    width: 277px;
+    height: 465px;
+     
+    overflow: hidden;
+    margin-left: -29px;
+}
+.chat-custom {
+  width: 291px;
+  height: 458px;
+  margin-left: -4px;
+}
+.composer-custom {
+  position: static!important;
+  margin-left: -24px!important;
+  display: flex!important;
+  align-items: center!important;
+  gap: 8px!important;
+}
+.fa-minus-custom {
+  margin-top: 2px;
+  font-size: 15px;
+  transform: rotate(269deg);
+  margin-left: -12px;
+}
+
+
+
+
+
+

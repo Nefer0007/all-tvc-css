@@ -1,0 +1,103 @@
+ 
+.tvc-insta-profilbg {
+        border-radius: 7px;
+    width: 421px;
+    background: var(--linerbg);
+    height: 560px;
+    margin-top: 22px;
+    padding-top: 2px;
+}
+  .tvc-insta-profil {
+       width: 350px;
+    background: var(--bgg2);
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    margin-top: 15px;
+  }
+
+   
+  .tvc-insta-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+
+ 
+
+.tvc-insta-profile-img {
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 90px;
+    padding: 5px;
+    background: var(--linerbg);
+}
+  .tvc-insta-header-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .tvc-insta-username {
+    font-size: 20px;
+    width: 180px;
+    color: var(--fontcolor1);text-align: left;
+}
+
+  .tvc-insta-message {
+    font-size: 14px;
+    color: var(--fontcolor1);
+  }
+
+  .tvc-insta-icons-container {
+    display: flex
+;
+    justify-content: space-between;
+    width: 54px;
+    gap: 7px;
+    font-size: 16px;
+  }
+
+  .tvc-insta-icon {
+    font-size: 24px;
+    color: var(--fontcolor1);
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+
+  
+  .tvc-insta-stats {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+
+  .tvc-insta-stats-item {
+    font-size: 14px;
+    color: var(--fontcolor1);
+  }
+
+ 
+  .tvc-insta-bio {
+    margin-top: 20px;
+    font-size: 14px;
+    color: var(--fontcolor1);text-align: left;
+  }
+
+  
+
+
+  .tvc-insta-body img {
+    width: 33%;
+    height: 141px;
+    object-fit: cover;
+    opacity: .7;
+    margin-bottom: 8px;
+    margin-top: 3px;
+    margin-right: 5px;
+   
+    border-radius: 2px;
+  }

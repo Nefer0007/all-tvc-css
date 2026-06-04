@@ -1,0 +1,55 @@
+table.moodboard-jk-table {
+       margin-top: -15px;
+    margin-left: -5px;
+}
+img.moodboard-jk-img {
+        width: 119px;
+    height: 109px;
+    border: 2px solid #333a42;
+    padding: 1px;
+    background-color: var(--bodybg);
+    object-fit: cover;
+    opacity: .8;
+    margin-top: 10px;
+    margin-bottom: -8px;
+}
+.TVC-kapcsolat-jk-kartya{padding:36px;}
+.TVC-kapcsolat-jk-felso{display:flex;gap:14px;align-items:flex-start;justify-content:flex-start;}
+.TVC-kapcsolat-jk-kep{width:180px;height:298px;margin-left:2px;margin-right:-14px;background:var(--linerbg);padding:3px;border-radius:10px;border:1px solid var(--bodybg);}
+.TVC-kapcsolat-jk-panelek{flex:1;display:flex;flex-direction:column;min-width:0;}
+.TVC-kapcsolat-jk-panelzona{position: relative;
+    height: 257px;
+    min-height: 252px;}
+.TVC-kapcsolat-jk-panel{position:absolute;inset:0;display:none;}
+.TVC-kapcsolat-jk-panel.active{display: block;
+    height: 252px;}
+.TVC-kapcsolat-jk-szovegdoboz{    background: #313131;
+    border-radius: 1px 10px 0 1px;
+    padding: 3px;
+    height: 246px;}
+.TVC-kapcsolat-jk-scroll{overflow: auto;
+    height: 227px;
+    padding: 8px;    text-align: justify;}
+.TVC-kapcsolat-jk-fejlec{    background: #313131;
+    border-radius: 0;
+    padding: 6px 8px 8px 8px;
+    margin-top: -6px;}
+.TVC-kapcsolat-jk-nev{color:var(--fontcolor1);font-family:var(--font1);font-size:22px;margin-top:4px;text-align:center;font-style:normal;}
+.TVC-kapcsolat-jk-adatsor{font-size:12px;color:#a6a6a6;margin-top:2px;text-align:center;}
+.TVC-kapcsolat-jk-ikonoszlop{display:flex;flex-direction:column;gap:10px;margin-left:-15px;margin-top:13px;}
+.TVC-kapcsolat-jk-ikon{width:36px;height:36px;border-radius:1px 20px 20px 1px;background:var(--linerbg);display:flex;align-items:center;justify-content:center;cursor:pointer;font-size:16px;color:#8d8d8dbd;transition:transform .15s,background .2s;}
+.TVC-kapcsolat-jk-ikon.active{background:linear-gradient(247deg,#303842,#444444);color:#a9a9a9;}
+.TVC-kapcsolat-jk-also{    background: #313131;
+    border-radius: 1px 1px 8px 8px;
+    padding: 12px;
+    width: 567px;
+    margin: -13px 5px;
+}
+.TVC-kapcsolat-jk-traits{display:flex;gap:16px;justify-content:space-between;}
+.TVC-kapcsolat-jk-trait{flex:1}
+.TVC-kapcsolat-jk-cim{font-size:12px;text-align:center;margin:8px 0 2px;font-family:var(--font1);font-weight:400;}
+.TVC-kapcsolat-jk-bar{background:#2e2e2e;border-radius:12px;height:8px;position:relative;overflow:hidden;}
+.TVC-kapcsolat-jk-fill{height:7px;background:var(--linerbg);border-radius:12px;transform:scaleX(0);transform-origin:left;animation:tvcjk-anim 2.8s cubic-bezier(.56,.65,.67,.77) forwards;}
+.TVC-kapcsolat-jk-tick{position:absolute;left:50%;top:100%;transform:translateX(-50%);width:2px;height:8px;background:#cfcfcf;border-radius:2px;margin-top:4px}
+.TVC-kapcsolat-jk-pct{font-size:11px;text-align:center;margin-top:10px;color:#bdbdbd}
+@keyframes tvcjk-anim{to{transform:scaleX(1)}}

@@ -1,0 +1,172 @@
+/* Alap .call-background-two érintetlen marad */
+.call-background-two {
+    color: var(--fontcolor1);
+    width: 276px;
+    height: 467px;
+    border-radius: 10px;
+    margin-top: 22px;
+    margin-bottom: 22px;
+    border: 11px solid #323a43;
+    padding: 10px;
+  
+    background: #00000045;
+    background-size: 100%;
+    position: relative;
+    overflow: hidden; /* Az overlay ne lógjon ki */
+}.call-wifi {
+    margin-left: 151px;
+}.call-timeee {
+    margin-left: -1px;
+}
+
+.call-auto {
+       height: 326px;
+    overflow: auto;
+}
+
+.call-icon {
+    font-size: 22px;
+    margin-top: 17px;
+    margin-left: 2px;
+    margin-right: 13px;
+}
+
+.call-name {
+    color: white;
+    font-family: var(--font1);
+    font-size: 30px;
+    margin-top: 67px;
+}
+
+.call-type {
+    font-family: var(--font1);
+    font-size: 13px;
+    margin-top: 9px;
+}
+
+.call-notification {
+        font-family: var(--font1);
+    font-size: 35px;
+    width: 63px;
+    line-height: 65px;
+    border-radius: 90px;
+    height: 63px;
+    background: #20742069;
+}
+
+.call-notification-end {
+    font-family: var(--font1);
+    font-size: 21px;
+    width: 47px;
+    line-height: 47px;
+    border-radius: 90px;
+    margin-top: -14px;
+    height: 47px;
+    background: #ff00008a;
+    transform: rotate(136deg);
+}
+
+/* Az értesítési panel */
+.call-overlay {
+    position: absolute;
+    top: 0; /* Az overlay pozíciója */
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #212121;
+    color: white;
+    z-index: 10;
+    transform: scale(0.1); /* Alapértelmezett kicsinyített állapot */
+    opacity: 0; /* Láthatatlan alaphelyzetben */
+    transition: transform 0.5s ease, opacity 0.5s ease; /* Hover animáció */
+}
+
+/* Hover eseményre megjelenés (középről növekvő animáció) */
+.call-background-two:hover .call-overlay {
+    transform: scale(1); /* Normál méretre növekszik */
+    opacity: 1; /* Láthatóvá válik */
+}
+
+.call-header {
+    padding: 10px;
+}
+
+.call-header .call-signal,
+.call-header .call-battery,
+.call-header .call-shake-icon {
+    font-size: 15px;
+    margin: 0 5px;
+}
+
+.call-current-time {
+    font-size: 34px;
+    font-family: var(--font1);
+    margin: 7px 1px 21px 3px;
+}
+
+.call-current-date {
+    font-size: 13px;
+    margin: 10px 1px 21px 3px;
+}
+
+.call-text {
+    font-size: 16px;
+    margin: 12px 12px;
+    text-align: left;
+    color: var(--fontcolor1);
+    font-family: var(--font1);
+}
+
+.call-bubble {
+        padding: 15px;
+    background: var(--bgg2);
+    border-radius: 10px;
+    margin-top: 10px;
+    width: 249px;
+    height: 264px;
+    color: var(--fontcolor1);
+    overflow: auto;
+    text-align: justify;
+}
+
+.call-avatar img {
+   width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 28px;
+    border: 7px solid #323a43;
+}
+
+.call-message-header {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.call-time-info {
+    font-size: 12px;
+    color: #aaa;
+}.call-notification-up {
+        font-family: var(--font1);
+    font-size: 27px;
+    margin-top: 47px;
+    margin-bottom: 15px;
+}.call-notification-upicon {
+    font-family: var(--font1);
+    font-size: 21px;
+    color: var(--fontcolor1);
+}.call-avatar-up img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #323a43;
+}.call-number-up {
+    color: white;
+    font-family: var(--font1);
+    font-size: 12px;
+}.call-name-up {
+    color: white;
+    font-family: var(--font1);
+    font-size: 12px;
+}

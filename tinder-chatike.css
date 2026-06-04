@@ -1,0 +1,64 @@
+.tindermessageheader {
+    background: var(--bgg2);
+    color: var(--fontcolor1);
+    font-family: var(--font1);
+    width: 409px;
+    font-size: 24px;
+    line-height: 38px;
+    padding: 11px;
+    border-radius: 6px 6px 1px 1px;
+    margin-top: 22px;
+}.tinderimgchat img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 100px;
+    opacity: .7;
+}.name-chattinder {
+    font-size: 16px;
+}.pointtinder {
+    margin-top: -9px;
+    margin-left: 236px;
+    font-size: 37px;
+}.tinder-chat {
+    background: var(--linerbg);
+    color: var(--fontcolor1);
+    width: 409px;
+    padding: 11px;
+}.tinder-chatmessage {
+    padding: 7px;
+    padding-top: 20px;
+    text-align: left;
+}.tinder-chatmessage p {
+    background: var(--bgg2);
+    width: auto;
+    display: table;
+    border-radius: 10px 10px 10px 0px;
+    padding: 15px;
+    text-align: justify;
+    margin-top: 10px;
+}.tinder-footer {
+    background: var(--bgg2);
+    color: var(--fontcolor1);
+    width: 409px;
+    line-height: 38px;
+    padding: 11px;
+    border-radius: 1px 1px 6px 6px;
+}.typeing {
+    background: var(--bodybg);
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 324px;
+    font-family: var(--font1);
+    text-align: left;
+}.send {
+    width: 26px;
+    height: 26px;
+    padding: 4px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 23px;
+    background: var(--bodybg);
+    border-radius: 100px;
+}

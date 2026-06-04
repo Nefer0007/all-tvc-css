@@ -1,0 +1,56 @@
+.dress-upbg {width: 483px;
+    background: var(--linerbg);
+    border-radius: 6px;
+    margin-bottom: 22px;
+    margin-top: 16px;
+    padding-bottom: 9px;}
+
+.dress-up-header{background: var(--bgg2);
+    height: 42px;
+    border-radius: 6px 6px 1px 1px;}
+.outfit-type {
+    text-align: justify;
+    width: 209px;
+    padding: 10px;
+    overflow: auto;
+    height: 160px;
+}img.img-outfit-one {
+    width: 154px;
+    height: 166px;
+    padding: 4px;
+    background: var(--linerbg);
+    opacity: .7;
+    border-radius: 5px;
+}img.img-outfit-fo {
+    width: 150px;
+    height: 156px;
+    padding: 4px;
+    background: var(--linerbg);
+    opacity: .7;
+    border-radius: 5px;
+    margin-bottom: 7px;
+}img.outfit-img-two {
+    width: 159px;
+    height: 186px;
+    padding: 5px;
+    background: var(--linerbg);
+    opacity: .7;
+    border-radius: 5px;
+}img.outfit-img-thr {
+    width: 159px;
+    height: 122px;
+    padding: 4px;
+    background: var(--linerbg);
+    opacity: .7;
+    border-radius: 5px;
+    margin-top: 8px;
+}img.img-outfit-xy {
+    width: 150px;
+    height: 155px;
+    padding: 4px;
+    background: var(--linerbg);
+    opacity: .7;
+    border-radius: 5px;
+}.outfit-type h2 {
+    font-family: var(--font1);
+}

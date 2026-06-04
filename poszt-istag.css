@@ -1,0 +1,40 @@
+
+.headerinsta-post {
+    background: var(--bgg2);
+    height: 42px;
+    width: 480px;
+    border-radius: 9px;
+    font-size: 25px;
+}.insta-username-post {
+    font-size: 16px;
+    color: var(--fontcolor1);
+    font-family: var(--font1);
+}.instabg-post {
+    border-radius: 5px;
+    width: 476px;
+    background: var(--linerbg);
+    height: 459px;
+    margin-bottom: 25px;
+}.postimg img {
+    object-fit: cover;
+    width: 368px;
+    height: 328px;
+    margin-top: 18px;
+    opacity: .8;
+    border-radius: 10px;
+}.postdesc {
+    background: var(--bgg2);
+    border-radius: 6px;
+    width: 367px;
+    height: 78px;
+    padding: 3px;
+    margin-top: 9px;
+}.postdesc p {
+    width: 347px;
+    height: 63px;
+    text-align: justify;
+    overflow: auto;
+}.postdesc span, .postdesc hastag {
+    color: var(--fontcolor1);
+    font-family: var(--font1);
+}

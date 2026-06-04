@@ -1,0 +1,117 @@
+.njk-information {
+        background: var(--bgg2);
+    width: 314px;
+    margin-top: -7px;
+    height: 84px;
+    padding: 14px;
+    border-radius: 5px;
+}
+.njk-like {
+    color: #62e09f;
+    margin-top: -76px;
+    text-align: center;
+    margin-left: 114px;
+    margin-bottom: 35px;
+    font-size: 33px;
+    -webkit-transform: rotate(348deg);
+    border-radius: 12px;
+    padding: 14px;
+    width: 96px;
+    border: 3px solid #62e09f;
+}
+.njkbg {
+    width: 371px;
+    border-radius: 5px;
+    background: var(--linerbg);
+    margin-bottom: 25px;
+    padding: 19px;
+    margin-top: 10px;
+}
+.njk-tinderheader {
+    background: var(--bgg2);
+    color: var(--fontcolor1);
+    font-family: var(--font1);
+    font-size: 22px;
+    width: 409px;
+    margin-left: -19px;
+    height: 38px;
+    line-height: 41px;
+    margin-bottom: 11px;
+    border-radius: 6px 6px 1px 1px;
+    margin-top: -19px;
+}.njk-nope {
+    color: #ff636b;
+    margin-top: -76px;
+    margin-left: 114px;
+    margin-bottom: 35px;
+    font-size: 33px;
+    -webkit-transform: rotate(348deg);
+    border-radius: 12px;
+    padding: 14px;
+    width: 96px;
+    border: 3px solid #ff636b;
+}.njknameage {
+    color: var(--fontcolor1);
+    font-family: var(--font1);
+    text-align: left;
+    font-size: 20px;
+    margin-bottom: 19px;
+}img.njk-tinder-img {
+    height: 359px;
+    border-radius: 4px;
+    width: 341px;
+    object-fit: cover;
+    opacity: .8;
+}.njk-information p {
+      color: var(--fontcolor1);
+    font-family: var(--font1);
+    font-size: 14px;
+    margin-bottom: -11px;
+    text-align: left;
+}.njk-img {
+       width: 346px;
+    height: 486px;
+    overflow: auto;
+    overflow-y: hidden;
+    margin-top: 2px;
+    margin-bottom: -7px;
+}
+.njk-tinderfooter {
+    margin-top: 20px;
+    margin-bottom: -19px;
+    background: var(--bgg2);
+    width: 382px;
+    padding: 14px;
+    margin-left: -19px;
+    border-radius: 1px 1px 6px 6px;
+}
+.njk-tinderfooter span.fa-solid.fa-xmark {
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+.njk-tinderfooter div {
+    color: var(--fontcolor1);
+    font-family: var(--font1);
+}
+
+.njk-tinderfooter span.fa-solid.fa-xmark:hover {
+    color: red;
+    animation: shakee 0.5s ease-in-out 2;
+}
+
+.njk-tinderfooter span.fa-solid.fa-star:hover {
+    color: #ffd700;
+    animation: shakee 0.5s ease-in-out 2;
+}
+
+.njk-tinderfooter span.fa-solid.fa-heart:hover {
+    color: #ff5c8d;
+    animation: shakee 0.5s ease-in-out 2;
+}
+
+@keyframes shakee {
+  0% { transform: rotate(0deg); }
+  25% { transform: rotate(-10deg); }
+  50% { transform: rotate(10deg); }
+  75% { transform: rotate(-10deg); }
+  100% { transform: rotate(10deg); }
+}

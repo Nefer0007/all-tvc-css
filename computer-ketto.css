@@ -1,0 +1,148 @@
+.second-computerbg {
+       width: 659px;
+    height: 413px;
+    margin-top: 22px;
+    margin-bottom: 22px;
+    border-radius: 10px;
+}.second-desktopleft {
+       width: 367px;
+    height: 20px;
+}.second-desktopright {
+    width: 281px;
+}
+.second-bg-galeria {
+     
+    margin-top: 7px;
+    height: 274px;
+    width: 348px;
+    border-radius: 10px;
+    position: relative;
+    z-index: 1;
+    box-shadow: 0px 4px 6px rgb(0 0 0 / 7%);
+}
+.second-header-gale {
+    border-radius: 10px 10px 0px 0px;
+    display: flex;
+    justify-content: end;
+    padding: 6px;
+    gap: 11px;
+}
+.second-gallery-left-side {
+   font-size: 8px;
+    text-align: left;
+    padding: 6px;
+    height: 230px;
+    overflow: auto;
+}
+.second-icon-galbg {
+    width: 45px;
+    height: 45px;
+    margin-top: 12px;
+    margin-left: -7px;
+    margin-right: 32px;
+}
+.second-gallery-right-side .fa-solid.fa-folder {
+    margin-top: 8px;
+    margin-left: 22px;
+}
+.second-gallery-right-side {
+    height: 238px;
+    overflow: auto;
+    width: 240px;
+    margin-top: 7px;
+}
+.second-galheadline {
+    font-size: 10px;
+    text-transform: lowercase;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    width: 75px;
+    height: 27px;
+    overflow: hidden;
+    color: var(--text-color);
+}
+.second-imggalery {
+    margin-right: -5px;
+    margin-top: 12px;
+}
+.second-imggalery img {
+    width: 54px;
+    height: 54px;
+    border-radius: 3px;
+}
+.second-bgmusic {
+   width: 272px;
+    margin-top: 127px;
+    border-radius: 10px;
+    /* margin-left: 25px; */
+    margin-bottom: -123px;
+    height: 192px;
+    position: relative;
+    z-index: 2;
+    box-shadow: 0px 4px 6px rgb(0 0 0 / 26%);
+}
+.second-header-music {
+    border-radius: 10px 10px 0px 0px;
+    display: flex;
+    justify-content: end;
+    padding: 6px;
+    gap: 11px;
+}.second-sidebarchat {
+    display: flex
+;
+    flex-direction: column;
+    align-items: center;
+    height: 200px;
+}
+.second-bgmusic iframe {
+    border-radius: 12px;
+    width: 263px;
+    height: 162px;
+    margin-top: 8px;
+}
+
+.second-footer-desktop {
+       display: flex
+;
+    gap: 218px;
+    margin-left: -1px;
+    font-size: 15px;
+    margin-top: 183px;
+    position: relative;
+    z-index: 2;
+    padding: 9px;
+    width: 637px;
+    height: 14px;
+}
+
+.second-center-fot {
+    display: flex
+;
+    gap: 12px;
+    margin-left: 66px;
+    margin-right: -40px;
+}
+
+.second-left-side-fot {
+    display: flex;
+    gap: 5px;
+    margin-left: -16px;
+}
+
+.second-time-date {
+    letter-spacing: -1px;
+    margin-top: -9px;
+    font-size: 11px;
+}
+
+.second-time-chat {
+    margin-bottom: -5px;
+}
+
+ .second-chat-icon {
+    background: #ffffff2b;
+    height: 17px;
+    padding: 2px;
+    width: 20px;
+    border-bottom: 1px solid #626d78;
+}

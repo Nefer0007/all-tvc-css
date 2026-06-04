@@ -1,0 +1,33 @@
+.postdesc-comment-bg {
+    border-radius: 5px;
+    width: 423px;
+    background: var(--linerbg);
+    height: 78px;
+    margin-bottom: 25px;
+    padding: 12px;
+}
+.postdesc-comment {
+    background: var(--bgg2);
+    width: 387px;
+    height: 76px;
+    border-radius: 5px;
+    display: flex;
+}.postimg-comment {
+    margin: 7px -50px 12px 22px;
+}.postimg-comment img {
+    height: 60px;
+    width: 60px;
+    border-radius: 100px;
+}.postdesc-comment p {
+    width: 282px;
+    margin-left: 57px;
+    padding: 10px;
+    height: 36px;
+    overflow: hidden;
+    line-height: 29px;
+    text-align: left;
+}
+.postdesc-comment span, .postdesc hastag {
+    color: var(--fontcolor1);
+    font-family: var(--font1);
+}

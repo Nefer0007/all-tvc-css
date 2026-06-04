@@ -1,0 +1,32 @@
+.insta-valami-bg {
+        border-radius: 5px;
+    width: 423px;
+    background: var(--linerbg);
+    height: 78px;
+    margin-bottom: 25px;
+    padding: 12px;
+}
+.insta-valami {
+    background: var(--bgg2);
+    width: 387px;
+    height: 76px;
+    border-radius: 5px;
+    display: flex;
+}.user-insta-valami {
+    margin: 7px -50px 12px 22px;
+}.user-insta-valami img {
+    height: 60px;
+    width: 60px;
+    border-radius: 100px;
+}.insta-valami p {
+    width: 282px;
+    margin-left: 57px;
+    padding: 10px;
+    height: 36px;
+    overflow: hidden;
+    line-height: 14px;
+    text-align: left;
+}.insta-valami span {
+    color: var(--fontcolor1);
+    font-family: var(--font1);
+}

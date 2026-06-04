@@ -1,0 +1,98 @@
+ .tvc-tinder {
+      width: 350px;
+      height: auto;
+      background: var(--bgg2);
+      border-radius: 20px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      overflow: hidden;
+      font-family: Arial, sans-serif;
+      position: relative;margin-top: 11px;
+    margin-bottom: 11px;
+    }
+.tinder-bg-tvc {
+    width: 346px;
+    height: 300px;
+    overflow: auto;
+    overflow-y: hidden;
+    margin-top: 2px;
+}
+    .tvc-tinder-header {
+      
+      width: 100%;
+    }img.tvc-tinder-img {
+    width: 341px;
+    height: 305px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+    .tinder-profile-img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      margin-right: 10px;
+      object-fit: cover;
+      border: 3px solid var(--linerbg);
+    }
+
+    .username-age {
+      font-weight: bold;
+      font-size: 18px;
+      color: var(--linerbg);
+      text-align: center;
+    }
+
+    .tvc-tinder-info {
+      padding: 15px;
+      color: var(--linerbg);
+      text-align: left;
+      font-size: 14px;
+    }
+
+    .tvc-tinder-info p {
+      margin: 5px 0;
+    }
+
+    .tvc-tinder-info i {
+      margin-right: 8px;
+      color: var(--linerbg);
+    }
+
+    .tvc-tinder-bio {
+      padding: 15px;
+      color: var(--linerbg);
+      text-align: center;
+      font-size: 14px;
+    }
+.bio-text {
+    margin-top: 10px;
+    text-align: justify;
+    padding: 15px;
+}
+
+    .tvc-tinder-footer {
+         width: 100%;
+    display: flex
+;
+    justify-content: space-evenly;
+    font-size: 25px;margin-bottom: 22px;
+    }
+
+    .tvc-tinder-footer span {
+      cursor: pointer;
+    }
+
+    .heart-icon, .star-icon, .close-icon {
+      color: var(--linerbg);
+    }
+
+    .heart-icon:hover {
+      color: #ff5c8d; /* piros szín */
+    }
+
+    .star-icon:hover {
+      color: #ffd700; /* sárga szín */
+    }
+
+    .close-icon:hover {
+      color: #ff4d4d; /* piros szín */
+    }

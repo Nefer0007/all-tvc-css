@@ -1,0 +1,41 @@
+.tvcsms-chat-box {
+ width: 360px;
+ background: var(--bgg2);
+ border-radius: 10px;
+ box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+padding: 20px;
+ margin-bottom: 8px;
+margin-top: 13px;
+ }
+.tvcsms-message {
+ display: flex;
+align-items: center;
+margin-bottom: 15px;
+}
+.tvcsms-message img {
+width: 40px;
+height: 40px;
+border-radius: 50%;
+margin-right: 10px;
+}
+.tvcsms-message .tvcsms-text {
+max-width: 70%;
+padding: 10px;
+border-radius: 15px;
+font-size: 14px;
+}
+.tvcsms-message.tvcsms-sent .tvcsms-text {
+background: var(--linerbg);
+align-self: flex-end;
+}
+.tvcsms-message.tvcsms-received .tvcsms-text {
+background: var(--linerbg);
+}
+.tvcsms-message.tvcsms-sent {
+justify-content: flex-end;
+}
+.tvcsms-message.tvcsms-sent img {
+order: 2;
+margin-left: 10px;
+margin-right: 0;
+}

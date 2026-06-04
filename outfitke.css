@@ -1,0 +1,25 @@
+.TVC-outfitreszleg{width:473px}
+.TVC-hatter-targy{width:424px;padding:24px;background:var(--linerbg);margin-top:7px;margin-bottom:11px;border-radius:5px;position:relative;overflow:hidden}
+.TVC-belso-targyak{width:443px;height:auto;overflow:auto;padding:10px;margin-left:-20px;background:var(--forumlinebg);border-radius:6px;margin-bottom:-18px}
+.TVC-kattintos-sor{display:flex;flex-wrap:wrap;gap:6px;width:437px;margin-left:-6px}
+.TVC-kattintos-icon{width: 45px;
+    height: 45px; border-radius:90px;background:rgba(0,0,0,.25);display:flex;align-items:center;justify-content:center;cursor:pointer;opacity:.75;transition:transform .25s ease,opacity .25s ease,box-shadow .25s ease,background .25s ease}
+.TVC-kattintos-icon img{width:35px;height:35px;object-fit:contain}
+.TVC-kattintos-icon:hover{opacity:.95;transform:translateY(-1px)}
+.TVC-kattintos-icon.active{opacity:1;background:var(--linerbg);transform:translateY(-2px) scale(1.03);box-shadow:0 0 15px rgba(0,0,0,.45);z-index:10}
+.TVC-kep-panel{  display: none;
+    flex-wrap: wrap;
+    gap: 2px;overflow: auto;
+    margin-left: -19px;
+    width: 454px;
+    height: 261px;
+    padding: 13px;
+    padding: 4px;
+    background: var(--forumlinebg);
+    border-radius: 6px;
+    margin-top: 7px;margin-bottom: -17px;
+}
+.TVC-kep-panel.active{display:flex}
+.TVC-kep-panel a{display:block}
+.TVC-kep-panel img{width:142px;height:144px;padding:3px;background-color:var(--bodybg);object-fit:cover;opacity:.4;margin-top:10px;margin-bottom:-2px;border-radius:6px;transition:opacity .2s ease,transform .2s ease}
+.TVC-kep-panel a:hover img{opacity:.7;transform:scale(1.01)}

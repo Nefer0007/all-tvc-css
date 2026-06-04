@@ -1,0 +1,52 @@
+.kontakt-search {
+    display: flex;
+    gap: 10px;
+    padding: 6px;
+    margin-top: 16px;
+    border-radius: 10px;
+}.kontakt-user {
+     
+    width: 72px;
+}
+.kontakt-text {
+    font-family: var(--font1);
+    font-size: 12px;
+}.kontakt-text-abc {
+    font-family: var(--font1);
+    font-size: 22px;
+    width: 39px;
+     
+}.kontakt-user-text {
+       font-family: var(--font1);
+    font-size: 19px;
+    margin-left: 11px;
+    line-height: 24px;
+    text-align: left;
+    width: 184px;
+     
+}.user-jegyzet {
+    font-size: 11px;
+    font-family: georgia;
+    width: 206px;
+    height: 42px;
+    overflow: auto;
+}
+.kontakt-lista {
+    color: var(--fontcolor1);
+    width: 347px;
+    height: 504px;
+    border-radius: 10px;
+    margin-top: 22px;
+    margin-bottom: 22px;
+    border: 11px solid #323a43;
+    padding: 10px;
+    background: #00000045;
+    background-size: 100%;
+    position: relative;
+    overflow: hidden;
+}.kontakt-user img {
+       height: 50px;
+    width: 50px;
+    border-radius: 90px;
+    border: 3px solid #323a43;
+}

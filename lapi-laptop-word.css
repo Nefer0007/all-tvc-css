@@ -1,0 +1,52 @@
+.lapi-laptop-bg-one {
+    margin-top: 122px;
+}
+.lapi-laptop-bg {
+       width: 566px;
+    height: 341px;
+    margin: -81px 40px 30px 38px;
+}.lapi-img-laptop {
+    margin-right: 9px;
+    margin-top: 12px;
+}.lapi-img-laptop img {
+    width: 50px;
+    height: 50px;
+    border-radius: 3px;
+}.lapi-imtex-laptop {
+    font-size: 10px;
+    text-transform: lowercase;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    /* background: red; */
+    width: 50px;
+    height: 27px;
+    overflow: hidden;
+}.lapi-laptop-win-bg {
+    margin-left: 10px;
+    margin-top: 1px;
+    height: 315px;
+    width: 399px;
+    border-radius: 10px;
+    position: relative;
+    z-index: 2;
+    box-shadow: 0px 4px 6px rgb(0 0 0 / 7%);
+}.lapi-footer-laptop {
+       display: flex
+;
+    gap: 218px;
+    margin-left: 0px;
+    font-size: 15px;
+    margin-top: -6px;
+    position: relative;
+    z-index: 1;
+    padding: 9px;
+    width: 545px;
+    height: 13px;
+}.lapi-header-laptop-win {
+    border-radius: 10px 10px 0px 0px;
+    display: flex
+;
+    justify-content: end;
+    padding: 6px;
+    gap: 11px;
+}

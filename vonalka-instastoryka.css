@@ -1,0 +1,80 @@
+.intsa-storyka-bg {
+    font-family: Arial, sans-serif;
+    background: #ffffff85;
+    width: 391px;
+    border-radius: 10px;
+    border: 3px solid #323a43;
+    margin-top: 22px;
+    margin-bottom: 22px;
+}.storyka-header img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 90px;
+    border: 3px solid #323a4361;
+}.vonal-instastory {
+    width: 97%;
+    margin-top: 10px;
+    background: #ffffff36;
+    height: 3px;
+    border-radius: 2px;
+    margin-left: -4px;
+    margin-bottom: 10px;
+}
+
+@keyframes instaStoryProgress {
+    from {
+        transform: scaleX(0);
+    }
+    to {
+        transform: scaleX(1);
+    }
+}
+
+.insta-vonalka {
+    background: white;
+    height: 3px;
+    border-radius: 2px;
+    width: 100%; 
+    transform: scaleX(0);
+    transform-origin: left;
+    animation: instaStoryProgress 10s linear forwards; 
+}
+
+.insta-storyka-footerke span.fa-solid.fa-heart {
+    transition: all .5s ease-in-out;
+}
+
+.insta-storyka-footerke span.fa-solid.fa-heart:hover {
+    transition: all .5sease -in-out;
+color:red;
+}
+.storyka-header {
+    display: flex
+;
+    gap: 11px;
+    width: 97%;
+    color: #ffffffad;
+    font-weight: bold;
+    line-height: 43px;
+}.insta-storyka-body img {
+    margin-top: 15px;
+    border-radius: 3px;
+    margin-bottom: 24px;
+}.insta-storyka-footerke {
+    display: flex
+;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+    background: var(--linerbg);
+    width: 100%;
+    font-size: 17px;
+}.uzikebg-intsa {
+    border: 1px solid #ffffff30;
+    border-radius: 60px;
+    padding: 10px;
+    width: 294px;
+    text-align: left;
+    font-size: 11px;
+}

@@ -1,0 +1,21 @@
+.smsekbg {
+    width: 555px;
+    margin-bottom: 51px;
+    margin-top: 22px;
+    padding: 25px;
+}.smsekbeszed {
+    text-align: right;
+    padding: 6px;
+    display: flex
+;
+    margin-bottom: -22px;
+    justify-content: flex-end;
+}.smsekbeszed p {
+    background: var(--linerbg);
+    max-width: 70%;
+    display: inline-block;
+    border-radius: 10px 10px 0px 10px;
+    padding: 15px;
+    margin-top: 10px;
+    text-align: right;
+}

@@ -1,0 +1,131 @@
+.second-folder-icon {
+    background: #ffffff2b;
+    height: 17px;margin-top: -4px;
+    padding: 2px;
+    width: 20px;
+    border-bottom: 1px solid #626d78;
+}
+
+.second-computerbg {
+    width: 659px;
+    height: 413px;
+    margin-top: 22px;
+    margin-bottom: 22px;
+    border-radius: 10px;
+}
+
+.second-desktopleft {
+    width: 367px;
+    height: 20px;
+}
+
+.second-bg-galeria {
+    margin-top: 21px;
+    height: 370px;
+    width: 650px;
+    border-radius: 10px;
+    position: relative;
+    z-index: 1;
+    box-shadow: 0px 4px 6px rgb(0 0 0 / 7%);
+}
+
+.second-header-gale {
+    border-radius: 10px 10px 0px 0px;
+    display: flex;
+    justify-content: end;
+    padding: 6px;
+    gap: 11px;
+}
+
+.second-gallery-left-side {
+    font-size: 8px;
+    text-align: left;
+    padding: 6px;
+    height: 320px;
+    width: 88px;
+    overflow: auto;
+    background: #2a2a2a;
+}
+
+.second-gallery-right-side {
+    height: 323px;
+    overflow: auto;
+    width: 540px;
+    margin-top: 7px;
+}
+
+.second-galheadline {
+    font-size: 10px;
+    text-transform: lowercase;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    width: 75px;
+    height: 27px;
+    overflow: hidden;
+    color: var(--text-color);
+}
+
+.second-imggalery {
+    margin-top: 12px;
+    margin-right: 10px !important;
+    margin-left: 10px;
+}
+
+.second-imggalery img {
+    border-radius: 3px;
+    width: 160px !important;
+    height: 160px !important;
+}
+
+.second-footer-desktop {
+    display: flex;
+    gap: 218px;
+    margin-left: -1px;
+    font-size: 15px;
+    margin-top: 183px;
+    position: relative;
+    z-index: 2;
+    padding: 9px;
+    width: 637px;
+    height: 14px;
+}
+
+.second-center-fot {
+  display: flex;
+    gap: 12px;
+    margin-top: 2px;
+    margin-left: 66px;
+    margin-right: -40px;
+}
+
+.second-left-side-fot {
+    display: flex;
+    gap: 5px;
+    margin-left: -16px;
+}
+
+.second-time-date {
+    letter-spacing: -1px;
+    margin-top: -9px;
+    font-size: 11px;
+}
+
+.second-time-chat {
+    margin-bottom: -5px;
+}
+
+.computer-gallery-tvc-tab {
+    cursor: pointer;
+}
+
+.computer-gallery-tvc-tab.is-active {
+    font-weight: bold;
+}
+
+.computer-gallery-tvc-panel {
+    display: none;
+}
+
+.computer-gallery-tvc-panel.is-active {
+    display: block;
+}

@@ -1,0 +1,31 @@
+.tinder-comment-bg {
+    border-radius: 5px;
+    width: 460px;
+    background: var(--linerbg);
+    height: 74px;
+    margin-bottom: 25px;
+    padding: 12px;
+}.tinder-comment {
+    background: var(--bgg2);
+    width: 420px;
+    height: 76px;
+    border-radius: 5px;
+    display: flex
+;
+}.tindersymb div {
+    font-size: 32px;
+    margin: 21px 13px 20px 13px;
+
+}.tinder-comment p {
+ width: 340px;
+    margin-left: -8px;
+    padding: 10px;
+    text-align: left;
+    height: 31px;
+    font-size: 13px;
+    line-height: 26px;
+}.tinder-comment span {
+   color: var(--fontcolor1);
+    font-family: var(--font1);
+    font-size: 20px;
+}

@@ -1,0 +1,106 @@
+ /* Main Profile Container */
+.tvc-insta-profilbg {
+        border-radius: 7px;
+    width: 421px;
+    background: var(--linerbg);
+    height: 560px;
+    margin-top: 22px;
+    padding-top: 2px;
+}
+  .tvc-insta-profil {
+       width: 350px;
+    background: var(--bgg2);
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    margin-top: 15px;
+  }
+
+  /* Header Section */
+  .tvc-insta-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+
+ 
+
+.tvc-insta-profile-img {
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 90px;
+    padding: 5px;
+    background: var(--linerbg);
+}
+  .tvc-insta-header-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .tvc-insta-username {
+    font-size: 20px;
+    width: 180px;
+    color: var(--fontcolor1);text-align: left;
+}
+
+  .tvc-insta-message {
+    font-size: 14px;
+    color: var(--fontcolor1);
+  }
+
+  .tvc-insta-icons-container {
+    display: flex
+;
+    justify-content: space-between;
+    width: 54px;
+    gap: 7px;
+    font-size: 16px;
+  }
+
+  .tvc-insta-icon {
+    font-size: 24px;
+    color: var(--fontcolor1);
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+
+  /* Stats under header */
+  .tvc-insta-stats {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+
+  .tvc-insta-stats-item {
+    font-size: 14px;
+    color: var(--fontcolor1);
+  }
+
+  /* Bio Section */
+  .tvc-insta-bio {
+    margin-top: 20px;
+    font-size: 14px;
+    color: var(--fontcolor1);text-align: left;
+  }
+
+  /* Profile Body - Images Grid */
+  .tvc-insta-body {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-top: 20px;
+  }
+
+  .tvc-insta-body img {
+    width: 122px;
+    height: 132px;
+    object-fit: cover;
+    opacity: .7;
+    margin-right: 11px;
+    margin-left: -15px;
+    border-radius: 2px;
+  }
