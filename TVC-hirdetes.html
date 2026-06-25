@@ -32,13 +32,14 @@
 
 
 .tooltip{
-    display:none;
-    max-width:300px;
+ display:none;
+    max-width:220px;
+    box-sizing:border-box;
     z-index:999999;
     position:fixed;
     margin:0;
     pointer-events:none;
-    transform:translateX(16px);
+    
     color:#B4B4B5;
     font-size:12px;
     background:linear-gradient(247deg,#303842,#444444);
@@ -222,7 +223,6 @@ data-tooltip="A kalandorok nyughatatlan, kíváncsi és merész személyiségek,
 <div id="tooltip" class="tooltip"></div>
 </div>
 </div>
-
 <script>
 document.querySelectorAll('.hirdetesicon').forEach(function(btn) {
     btn.addEventListener('click', function() {
@@ -244,19 +244,49 @@ document.querySelectorAll('.hirdetesicon').forEach(function(btn) {
 });
 </script>
 <script>
-const tooltip=document.getElementById('tooltip');
+const tooltip = document.getElementById('tooltip');
 
-document.querySelectorAll('[data-tooltip]').forEach(img=>{
-    img.addEventListener('mousemove',e=>{
-        tooltip.innerHTML=img.dataset.tooltip;
-        tooltip.style.display='block';
-        tooltip.style.left=e.clientX+'px';
-        tooltip.style.top=e.clientY+'px';
+document.querySelectorAll('[data-tooltip]').forEach(el => {
+
+    el.addEventListener('mousemove', e => {
+
+        tooltip.innerHTML = el.dataset.tooltip;
+        tooltip.style.display = 'block';
+
+        const margin = 15;
+        const frameWidth = document.documentElement.clientWidth;
+
+        tooltip.style.left = '-9999px';
+        tooltip.style.top = '-9999px';
+
+        const tw = tooltip.offsetWidth;
+        const th = tooltip.offsetHeight;
+
+        let left;
+        let top = e.clientY + margin;
+
+        if (e.clientX > frameWidth / 2) {
+            left = e.clientX - tw - margin;
+        } else {
+            left = e.clientX + margin;
+        }
+
+        if (top + th > window.innerHeight - margin) {
+            top = e.clientY - th - margin;
+        }
+
+        if (left < margin) left = margin;
+        if (top < margin) top = margin;
+
+        tooltip.style.left = left + 'px';
+        tooltip.style.top = top + 'px';
+
     });
 
-    img.addEventListener('mouseleave',()=>{
-        tooltip.style.display='none';
+    el.addEventListener('mouseleave', () => {
+        tooltip.style.display = 'none';
     });
+
 });
 </script>
 
