@@ -51,7 +51,25 @@ transform: translateX(16px);
 }
 
 
-
+.tooltip{
+    display:none;
+    max-width:300px;
+    z-index:999999;
+    position:fixed;
+    margin:0;
+    pointer-events:none;
+    transform:translateX(16px);
+    color:#B4B4B5;
+    font-size:12px;
+    background:linear-gradient(247deg,#303842,#444444);
+    padding:8px;
+    font-style:italic;
+    text-align:justify;
+    border-radius:10px;
+    letter-spacing:1px;
+    line-height:14px;
+    font-family:Georgia;
+}
 
 
     
@@ -155,33 +173,40 @@ Azt viszont el lehet mondani, hogy bármilyen izgalomra is vágysz, azt Miamiban
 <tr>
 
 <td>
-<img src="https://i.imgur.com/lkkVMEJ.png" style="width:77px;height:90px;" title="A vezetők határozott, magabiztos és stratégiai gondolkodású személyiségek, akik kiváló problémamegoldó és alkalmazkodó képességgel rendelkeznek." class=""><br>
-<div style="font-family:Playfair Display, serif;color:#d0a05a;letter-spacing:5px;font-size:10px;">OLD<br>FASHIONED</div>
+<img src="https://i.imgur.com/lkkVMEJ.png" style="width:77px;height:90px;"
+data-tooltip="A vezetők határozott, magabiztos és stratégiai gondolkodású személyiségek, akik kiváló problémamegoldó és alkalmazkodó képességgel rendelkeznek."><br>
+<div style="font-family:Playfair Display,serif;color:#d0a05a;letter-spacing:5px;font-size:10px;">OLD<br>FASHIONED</div>
 </td>
 
 <td>
-<img src="https://i.imgur.com/eYQp7zs.png" style="height:64px;margin-top:28px;" title="A lázadók szenvedélyes, önálló és bátor gondolkodók, akik nem fogadják el vakon a szabályokat: készek megkérdőjelezni és megváltoztatni a rendszert ott, ahol mások csak akadályokat látnak." class=""><br>
-<div style="font-family:Playfair Display, serif;color:#b95c4d;letter-spacing:5px;font-size:10px;">CUBA<br>LIBRE</div>
+<img src="https://i.imgur.com/eYQp7zs.png" style="height:64px;margin-top:28px;"
+data-tooltip="A lázadók szenvedélyes, önálló és bátor gondolkodók, akik nem fogadják el vakon a szabályokat: készek megkérdőjelezni és megváltoztatni a rendszert ott, ahol mások csak akadályokat látnak."><br>
+<div style="font-family:Playfair Display,serif;color:#b95c4d;letter-spacing:5px;font-size:10px;">CUBA<br>LIBRE</div>
 </td>
 
 <td>
-<img src="https://i.imgur.com/TpWcjGO.png" style="height:85px;margin-top:10px;" title="A gondolkodók mélyen elmélkedő, racionális és elemző személyiségek, akiket a tudásvágy és a világ összefüggéseinek megértése hajt előre."><br>
-<div style="font-family:Playfair Display, serif;color:#5fb5df;letter-spacing:5px;font-size:10px;">BLUE<br>LAGOON</div>
+<img src="https://i.imgur.com/TpWcjGO.png" style="height:85px;margin-top:10px;"
+data-tooltip="A gondolkodók mélyen elmélkedő, racionális és elemző személyiségek, akiket a tudásvágy és a világ összefüggéseinek megértése hajt előre."><br>
+<div style="font-family:Playfair Display,serif;color:#5fb5df;letter-spacing:5px;font-size:10px;">BLUE<br>LAGOON</div>
 </td>
 
 <td>
-<img src="https://i.imgur.com/1UBy2J2.png" style="height:65px;margin-top:17px;margin-bottom:11px;" title="A védelmezők erős igazságérzettel rendelkező, hűséges és megbízható személyiségek, akik fizikai, érzelmi vagy erkölcsi támogatást nyújtva biztosítanak védelmet mások számára."><br>
-<div style="font-family:Playfair Display, serif;color:#80a66e;letter-spacing:5px;font-size:10px;">MOJITO</div>
+<img src="https://i.imgur.com/1UBy2J2.png" style="height:65px;margin-top:17px;margin-bottom:11px;"
+data-tooltip="A védelmezők erős igazságérzettel rendelkező, hűséges és megbízható személyiségek, akik fizikai, érzelmi vagy erkölcsi támogatást nyújtva biztosítanak védelmet mások számára."><br>
+<div style="font-family:Playfair Display,serif;color:#80a66e;letter-spacing:5px;font-size:10px;">MOJITO</div>
 </td>
 
 <td>
-<img src="https://i.imgur.com/YR1IFfQ.png" style="height:88px;margin-top:7px;" title="A kalandorok nyughatatlan, kíváncsi és merész személyiségek, akik számára a világ egy felfedezésre váró játszótér, és az élet igazi szépségét a komfortzónán kívüli élmények jelentik." class=""><br>
-<div style="font-family:Playfair Display, serif;color:#d97336;letter-spacing:5px;font-size:10px;">TEQUILA<br>SUNRISE</div>
+<img src="https://i.imgur.com/YR1IFfQ.png" style="height:88px;margin-top:7px;"
+data-tooltip="A kalandorok nyughatatlan, kíváncsi és merész személyiségek, akik számára a világ egy felfedezésre váró játszótér, és az élet igazi szépségét a komfortzónán kívüli élmények jelentik."><br>
+<div style="font-family:Playfair Display,serif;color:#d97336;letter-spacing:5px;font-size:10px;">TEQUILA<br>SUNRISE</div>
 </td>
 
 </tr>
 </tbody>
 </table>
+
+<div id="tooltip" class="my-tooltip"></div>
 
 </div>
 
@@ -192,17 +217,27 @@ Azt viszont el lehet mondani, hogy bármilyen izgalomra is vágysz, azt Miamiban
     <div style="font-size:15px;color:#898a8b;">Találd meg önmagad</div>
     <div style="height:1px;background:#555;flex:1;"></div>
 </div>
-<a href="link" target="_blank"><div style="display: flex;flex-wrap: wrap;gap: 6px;margin-left: -11px;">
- <img title="Valentina Marisol Reyes || 21 || Mika Abdalla" src="https://64.media.tumblr.com/6d595107428ddb1ff16197e27948b73d/73e4c35c34b93a16-68/s400x600/03a20f2ff638528c0e43c20b51ec0f118b04afd4.pnj" class="inspokarik">
-<img title="Cedric Walker || 34 || Casey Deidrick" src="https://64.media.tumblr.com/2edbbd58868df826c20e5d5ec4074757/4e439453c5e4abaf-21/s400x600/761ec6557a0342549e6f7b51a4d93b6e956071fd.pnj" class="inspokarik">
-<img title="Evelyn Rose Hammond || 36 || Victoria Pedretti" src="https://64.media.tumblr.com/80ed6c3a8155868bfbf541615ed8ab3c/af0dab6ef64fad3c-63/s640x960/74f84ab29c5c751896c031fdb940073d2e5fe068.jpg" class="inspokarik">
-<img title="Elliot Carter || 22 || Louis Partridge" src="https://64.media.tumblr.com/fa6df7861197b303c8d507ab7300c29a/11389c2169215da2-8c/s640x960/ea3efc651dc995d27c4f4f1d03f78dc770cb9105.jpg" class="inspokarik">
+<a href="link" target="_blank">
+<div style="display:flex;flex-wrap:wrap;gap:6px;margin-left:-11px;">
 
-<img title="Madison Montgomery || 18 || Sadie Sink" src="https://64.media.tumblr.com/d8c9c0529328527943f990caa8f4a214/3ff5c779d6966adc-54/s400x600/2772dd72f587a3a07971954cdf368becc7ddff00.pnj" class="inspokarik">
-<img title="Jaxon Cole Ryder || 26 || Austin Butler" src="https://64.media.tumblr.com/033b23e615c740241ddb3f49dcdc4a29/b569db5c9b5bb5cc-ae/s400x600/28f88f967605cd3b57cdbc8724a6b56474ebe05f.pnj" class="inspokarik">
-<img title="Scarlett Hayes || 24 || Sydney Sweeney" src="https://i.pinimg.com/736x/dd/7e/2d/dd7e2d94bb02ae32f505f824eebd0c2b.jpg" class="inspokarik">
-<img title="Dr. Matthew Brooks || 38 || Matt Czuchry" src="https://64.media.tumblr.com/4d87dd0eec7674f11a63b02a61f4f71b/48473a5da67796f5-13/s250x400/d8a84a142231fe57303a3dd1e72465f3e1ba725e.pnj" class="inspokarik">
-</div></a>
+<img data-tooltip="Valentina Marisol Reyes || 21 || Mika Abdalla" src="https://64.media.tumblr.com/6d595107428ddb1ff16197e27948b73d/73e4c35c34b93a16-68/s400x600/03a20f2ff638528c0e43c20b51ec0f118b04afd4.pnj" class="inspokarik">
+
+<img data-tooltip="Cedric Walker || 34 || Casey Deidrick" src="https://64.media.tumblr.com/2edbbd58868df826c20e5d5ec4074757/4e439453c5e4abaf-21/s400x600/761ec6557a0342549e6f7b51a4d93b6e956071fd.pnj" class="inspokarik">
+
+<img data-tooltip="Evelyn Rose Hammond || 36 || Victoria Pedretti" src="https://64.media.tumblr.com/80ed6c3a8155868bfbf541615ed8ab3c/af0dab6ef64fad3c-63/s640x960/74f84ab29c5c751896c031fdb940073d2e5fe068.jpg" class="inspokarik">
+
+<img data-tooltip="Elliot Carter || 22 || Louis Partridge" src="https://64.media.tumblr.com/fa6df7861197b303c8d507ab7300c29a/11389c2169215da2-8c/s640x960/ea3efc651dc995d27c4f4f1d03f78dc770cb9105.jpg" class="inspokarik">
+
+<img data-tooltip="Madison Montgomery || 18 || Sadie Sink" src="https://64.media.tumblr.com/d8c9c0529328527943f990caa8f4a214/3ff5c779d6966adc-54/s400x600/2772dd72f587a3a07971954cdf368becc7ddff00.pnj" class="inspokarik">
+
+<img data-tooltip="Jaxon Cole Ryder || 26 || Austin Butler" src="https://64.media.tumblr.com/033b23e615c740241ddb3f49dcdc4a29/b569db5c9b5bb5cc-ae/s400x600/28f88f967605cd3b57cdbc8724a6b56474ebe05f.pnj" class="inspokarik">
+
+<img data-tooltip="Scarlett Hayes || 24 || Sydney Sweeney" src="https://i.pinimg.com/736x/dd/7e/2d/dd7e2d94bb02ae32f505f824eebd0c2b.jpg" class="inspokarik">
+
+<img data-tooltip="Dr. Matthew Brooks || 38 || Matt Czuchry" src="https://64.media.tumblr.com/4d87dd0eec7674f11a63b02a61f4f71b/48473a5da67796f5-13/s250x400/d8a84a142231fe57303a3dd1e72465f3e1ba725e.pnj" class="inspokarik">
+
+</div>
+</a>
  
 
 </div>
@@ -230,7 +265,22 @@ document.querySelectorAll('.hirdetesicon').forEach(function(btn) {
     });
 });
 </script>
+<script>
+const tooltip=document.getElementById('tooltip');
 
+document.querySelectorAll('img[data-tooltip]').forEach(img=>{
+    img.addEventListener('mousemove',e=>{
+        tooltip.innerHTML=img.dataset.tooltip;
+        tooltip.style.display='block';
+        tooltip.style.left=e.clientX+'px';
+        tooltip.style.top=e.clientY+'px';
+    });
+
+    img.addEventListener('mouseleave',()=>{
+        tooltip.style.display='none';
+    });
+});
+</script>
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
 <script src="https://static.tumblr.com/1vwpqwc/Kixmls5t4/jquery.style-my-tooltips.js"></script>
 <script>
